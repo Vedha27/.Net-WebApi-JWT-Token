@@ -1,0 +1,655 @@
+2025-09-13 21:53:09.469 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-09-13 21:53:09.804 +05:30 [DBG] Hosting starting
+2025-09-13 21:53:10.243 +05:30 [INF] User profile is available. Using 'C:\Users\vedha\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-09-13 21:53:10.271 +05:30 [DBG] Reading data from file 'C:\Users\vedha\AppData\Local\ASP.NET\DataProtection-Keys\key-662271e6-d3c1-49ca-ba85-98c8aede3df8.xml'.
+2025-09-13 21:53:10.311 +05:30 [DBG] Found key {662271e6-d3c1-49ca-ba85-98c8aede3df8}.
+2025-09-13 21:53:10.331 +05:30 [DBG] Considering key {662271e6-d3c1-49ca-ba85-98c8aede3df8} with expiration date 2025-12-03 16:49:00Z as default key.
+2025-09-13 21:53:10.337 +05:30 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-09-13 21:53:10.343 +05:30 [DBG] Decrypting secret element using Windows DPAPI.
+2025-09-13 21:53:10.355 +05:30 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-09-13 21:53:10.399 +05:30 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2025-09-13 21:53:10.403 +05:30 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2025-09-13 21:53:10.409 +05:30 [DBG] Using key {662271e6-d3c1-49ca-ba85-98c8aede3df8} as the default key.
+2025-09-13 21:53:10.413 +05:30 [DBG] Key ring with default key {662271e6-d3c1-49ca-ba85-98c8aede3df8} was loaded during application startup.
+2025-09-13 21:53:10.426 +05:30 [DBG] Middleware loaded
+2025-09-13 21:53:10.431 +05:30 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16515 B).
+2025-09-13 21:53:10.435 +05:30 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2025-09-13 21:53:10.837 +05:30 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+2025-09-13 21:53:11.070 +05:30 [DBG] Connection id "0HNFIS7AF4NOM" accepted.
+2025-09-13 21:53:11.074 +05:30 [DBG] Connection id "0HNFIS7AF4NOM" started.
+2025-09-13 21:53:11.087 +05:30 [INF] Now listening on: http://localhost:5041
+2025-09-13 21:53:11.088 +05:30 [DBG] Loaded hosting startup assembly WebApplication2
+2025-09-13 21:53:11.094 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-09-13 21:53:11.096 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-09-13 21:53:11.100 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-09-13 21:53:11.112 +05:30 [DBG] Connection id "0HNFIS7AF4NOM" received FIN.
+2025-09-13 21:53:11.120 +05:30 [DBG] Connection id "0HNFIS7AF4NOM" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-09-13 21:53:11.131 +05:30 [DBG] Connection id "0HNFIS7AF4NOM" disconnecting.
+2025-09-13 21:53:11.152 +05:30 [DBG] Connection id "0HNFIS7AF4NOM" stopped.
+2025-09-13 21:53:11.363 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-13 21:53:11.365 +05:30 [INF] Hosting environment: Development
+2025-09-13 21:53:11.367 +05:30 [INF] Content root path: D:\ASP.Net CORE WEB API\WebApplication2\WebApplication2
+2025-09-13 21:53:11.369 +05:30 [DBG] Hosting started
+2025-09-13 21:53:12.229 +05:30 [DBG] Connection id "0HNFIS7AF4NON" accepted.
+2025-09-13 21:53:12.275 +05:30 [DBG] Connection id "0HNFIS7AF4NOO" accepted.
+2025-09-13 21:53:12.283 +05:30 [DBG] Connection id "0HNFIS7AF4NON" started.
+2025-09-13 21:53:12.296 +05:30 [DBG] Connection id "0HNFIS7AF4NOO" started.
+2025-09-13 21:53:12.448 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5041/swagger/index.html - null null
+2025-09-13 21:53:12.860 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-09-13 21:53:12.908 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2025-09-13 21:53:12.911 +05:30 [DBG] Request did not match any endpoints
+2025-09-13 21:53:13.079 +05:30 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-09-13 21:53:13.097 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-09-13 21:53:13.198 +05:30 [DBG] Response markup was updated to include Browser Link script injection.
+2025-09-13 21:53:13.209 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2025-09-13 21:53:13.212 +05:30 [DBG] Connection id "0HNFIS7AF4NOO" completed keep alive response.
+2025-09-13 21:53:13.218 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5041/swagger/index.html - 200 null text/html;charset=utf-8 790.8472ms
+2025-09-13 21:53:13.342 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5041/_framework/aspnetcore-browser-refresh.js - null null
+2025-09-13 21:53:13.358 +05:30 [DBG] Script injected: /_framework/aspnetcore-browser-refresh.js
+2025-09-13 21:53:13.379 +05:30 [DBG] Connection id "0HNFIS7AF4NOO" completed keep alive response.
+2025-09-13 21:53:13.383 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5041/_framework/aspnetcore-browser-refresh.js - 200 16515 application/javascript; charset=utf-8 40.3949ms
+2025-09-13 21:53:13.499 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5041/_vs/browserLink - null null
+2025-09-13 21:53:13.675 +05:30 [DBG] Connection id "0HNFIS7AF4NOO" completed keep alive response.
+2025-09-13 21:53:13.680 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5041/_vs/browserLink - 200 null text/javascript; charset=UTF-8 181.2737ms
+2025-09-13 21:53:13.797 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5041/swagger/v1/swagger.json - null null
+2025-09-13 21:53:13.802 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2025-09-13 21:53:13.810 +05:30 [DBG] Request did not match any endpoints
+2025-09-13 21:53:13.842 +05:30 [DBG] Connection id "0HNFIS7AF4NOO" completed keep alive response.
+2025-09-13 21:53:13.868 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5041/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 71.8854ms
+2025-09-13 21:53:27.150 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5041/api/projects - null null
+2025-09-13 21:53:27.178 +05:30 [DBG] 1 candidate(s) found for the request path '/api/projects'
+2025-09-13 21:53:27.187 +05:30 [DBG] Endpoint 'WebApplication2.Controllers.ProjectController.GetAllProjects (WebApplication2)' with route pattern 'api/projects' is valid for the request path '/api/projects'
+2025-09-13 21:53:27.195 +05:30 [DBG] Request matched endpoint 'WebApplication2.Controllers.ProjectController.GetAllProjects (WebApplication2)'
+2025-09-13 21:53:27.203 +05:30 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-09-13 21:53:27.670 +05:30 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2025-09-13 21:53:27.682 +05:30 [DBG] Policy authentication schemes  did not succeed
+2025-09-13 21:53:27.696 +05:30 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Reader|Writer)
+2025-09-13 21:53:27.705 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2025-09-13 21:53:27.707 +05:30 [DBG] Connection id "0HNFIS7AF4NOO" completed keep alive response.
+2025-09-13 21:53:27.711 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5041/api/projects - 401 0 null 561.973ms
+2025-09-13 21:53:51.235 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5041/api/Auth/login - application/json 62
+2025-09-13 21:53:51.254 +05:30 [DBG] 1 candidate(s) found for the request path '/api/Auth/login'
+2025-09-13 21:53:51.258 +05:30 [DBG] Endpoint 'WebApplication2.Controllers.AuthController.Login (WebApplication2)' with route pattern 'api/Auth/login' is valid for the request path '/api/Auth/login'
+2025-09-13 21:53:51.264 +05:30 [DBG] Request matched endpoint 'WebApplication2.Controllers.AuthController.Login (WebApplication2)'
+2025-09-13 21:53:51.268 +05:30 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-09-13 21:53:51.274 +05:30 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2025-09-13 21:53:51.281 +05:30 [INF] Executing endpoint 'WebApplication2.Controllers.AuthController.Login (WebApplication2)'
+2025-09-13 21:53:51.333 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(WebApplication2.DTO.LoginDto) on controller WebApplication2.Controllers.AuthController (WebApplication2).
+2025-09-13 21:53:51.342 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-09-13 21:53:51.344 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-09-13 21:53:51.347 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-09-13 21:53:51.351 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-09-13 21:53:51.359 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-09-13 21:53:51.364 +05:30 [DBG] Executing controller factory for controller WebApplication2.Controllers.AuthController (WebApplication2)
+2025-09-13 21:53:51.847 +05:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2025-09-13 21:53:51.900 +05:30 [DBG] Executed controller factory for controller WebApplication2.Controllers.AuthController (WebApplication2)
+2025-09-13 21:53:51.909 +05:30 [DBG] Attempting to bind parameter 'loginDto' of type 'WebApplication2.DTO.LoginDto' ...
+2025-09-13 21:53:51.915 +05:30 [DBG] Attempting to bind parameter 'loginDto' of type 'WebApplication2.DTO.LoginDto' using the name '' in request data ...
+2025-09-13 21:53:51.919 +05:30 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2025-09-13 21:53:51.936 +05:30 [DBG] Connection id "0HNFIS7AF4NOO", Request id "0HNFIS7AF4NOO:00000006": started reading request body.
+2025-09-13 21:53:51.940 +05:30 [DBG] Connection id "0HNFIS7AF4NOO", Request id "0HNFIS7AF4NOO:00000006": done reading request body.
+2025-09-13 21:53:51.966 +05:30 [DBG] JSON input formatter succeeded, deserializing to type 'WebApplication2.DTO.LoginDto'
+2025-09-13 21:53:51.968 +05:30 [DBG] Done attempting to bind parameter 'loginDto' of type 'WebApplication2.DTO.LoginDto'.
+2025-09-13 21:53:51.970 +05:30 [DBG] Done attempting to bind parameter 'loginDto' of type 'WebApplication2.DTO.LoginDto'.
+2025-09-13 21:53:51.978 +05:30 [DBG] Attempting to validate the bound parameter 'loginDto' of type 'WebApplication2.DTO.LoginDto' ...
+2025-09-13 21:53:51.997 +05:30 [DBG] Done attempting to validate the bound parameter 'loginDto' of type 'WebApplication2.DTO.LoginDto'.
+2025-09-13 21:53:52.980 +05:30 [DBG] The index {'UserId'} was not created on entity type 'IdentityUserRole<string>' as the properties are already covered by the index {'UserId', 'RoleId'}.
+2025-09-13 21:53:52.983 +05:30 [DBG] The index {'UserId'} was not created on entity type 'IdentityUserToken<string>' as the properties are already covered by the index {'UserId', 'LoginProvider', 'Name'}.
+2025-09-13 21:53:53.503 +05:30 [DBG] Entity Framework Core 9.0.8 initialized 'AuthenticationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:9.0.8' with options: EngineType=SqlServer 
+2025-09-13 21:53:53.730 +05:30 [DBG] Compiling query expression: 
+'DbSet<IdentityUser>()
+    .SingleOrDefault(u => u.NormalizedEmail == __normalizedEmail_0)'
+2025-09-13 21:53:54.202 +05:30 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<IdentityUser>(
+    asyncEnumerable: SingleQueryingEnumerable.Create<IdentityUser>(
+        relationalQueryContext: (RelationalQueryContext)queryContext, 
+        relationalCommandResolver: parameters => [LIFTABLE Constant: RelationalCommandCache.QueryExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: IdentityUser.Id (string) Required PK AfterSave:Throw, 0], [Property: IdentityUser.AccessFailedCount (int) Required, 1], [Property: IdentityUser.ConcurrencyStamp (string) Concurrency, 2], [Property: IdentityUser.Email (string) MaxLength(256), 3], [Property: IdentityUser.EmailConfirmed (bool) Required, 4], [Property: IdentityUser.LockoutEnabled (bool) Required, 5], [Property: IdentityUser.LockoutEnd (DateTimeOffset?), 6], [Property: IdentityUser.NormalizedEmail (string) Index MaxLength(256), 7], [Property: IdentityUser.NormalizedUserName (string) Index MaxLength(256), 8], [Property: IdentityUser.PasswordHash (string), 9], [Property: IdentityUser.PhoneNumber (string), 10], [Property: IdentityUser.PhoneNumberConfirmed (bool) Required, 11], [Property: IdentityUser.SecurityStamp (string), 12], [Property: IdentityUser.TwoFactorEnabled (bool) Required, 13], [Property: IdentityUser.UserName (string) MaxLength(256), 14] }
+            SELECT TOP(2) a.Id, a.AccessFailedCount, a.ConcurrencyStamp, a.Email, a.EmailConfirmed, a.LockoutEnabled, a.LockoutEnd, a.NormalizedEmail, a.NormalizedUserName, a.PasswordHash, a.PhoneNumber, a.PhoneNumberConfirmed, a.SecurityStamp, a.TwoFactorEnabled, a.UserName
+            FROM AspNetUsers AS a
+            WHERE a.NormalizedEmail == @__normalizedEmail_0) | Resolver: c => new RelationalCommandCache(
+            c.Dependencies.MemoryCache, 
+            c.RelationalDependencies.QuerySqlGeneratorFactory, 
+            c.RelationalDependencies.RelationalParameterBasedSqlProcessorFactory, 
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: IdentityUser.Id (string) Required PK AfterSave:Throw, 0], [Property: IdentityUser.AccessFailedCount (int) Required, 1], [Property: IdentityUser.ConcurrencyStamp (string) Concurrency, 2], [Property: IdentityUser.Email (string) MaxLength(256), 3], [Property: IdentityUser.EmailConfirmed (bool) Required, 4], [Property: IdentityUser.LockoutEnabled (bool) Required, 5], [Property: IdentityUser.LockoutEnd (DateTimeOffset?), 6], [Property: IdentityUser.NormalizedEmail (string) Index MaxLength(256), 7], [Property: IdentityUser.NormalizedUserName (string) Index MaxLength(256), 8], [Property: IdentityUser.PasswordHash (string), 9], [Property: IdentityUser.PhoneNumber (string), 10], [Property: IdentityUser.PhoneNumberConfirmed (bool) Required, 11], [Property: IdentityUser.SecurityStamp (string), 12], [Property: IdentityUser.TwoFactorEnabled (bool) Required, 13], [Property: IdentityUser.UserName (string) MaxLength(256), 14] }
+            SELECT TOP(2) a.Id, a.AccessFailedCount, a.ConcurrencyStamp, a.Email, a.EmailConfirmed, a.LockoutEnabled, a.LockoutEnd, a.NormalizedEmail, a.NormalizedUserName, a.PasswordHash, a.PhoneNumber, a.PhoneNumberConfirmed, a.SecurityStamp, a.TwoFactorEnabled, a.UserName
+            FROM AspNetUsers AS a
+            WHERE a.NormalizedEmail == @__normalizedEmail_0, 
+            False, 
+            new HashSet<string>(
+                new string[]{ }, 
+                StringComparer.Ordinal
+            )
+        )].GetRelationalCommandTemplate(parameters), 
+        readerColumns: null, 
+        shaper: (queryContext, dataReader, resultContext, resultCoordinator) => 
+        {
+            IdentityUser entity;
+            entity = 
+            {
+                MaterializationContext materializationContext1;
+                IEntityType entityType1;
+                IdentityUser instance1;
+                InternalEntityEntry entry1;
+                bool hasNullKey1;
+                materializationContext1 = new MaterializationContext(
+                    [LIFTABLE Constant: ValueBuffer | Resolver: _ => (object)ValueBuffer.Empty], 
+                    queryContext.Context
+                );
+                instance1 = default(IdentityUser);
+                entry1 = queryContext.TryGetEntry(
+                    key: [LIFTABLE Constant: Key: IdentityUser.Id PK | Resolver: c => c.Dependencies.Model.FindEntityType("Microsoft.AspNetCore.Identity.IdentityUser").FindPrimaryKey()], 
+                    keyValues: new object[]{ (object)dataReader.GetString(0) }, 
+                    throwOnNullKey: True, 
+                    hasNullKey: hasNullKey1);
+                !(hasNullKey1) ? entry1 != default(InternalEntityEntry) ? 
+                {
+                    entityType1 = entry1.EntityType;
+                    return instance1 = (IdentityUser)entry1.Entity;
+                } : 
+                {
+                    ISnapshot shadowSnapshot1;
+                    shadowSnapshot1 = [LIFTABLE Constant: Snapshot | Resolver: _ => Snapshot.Empty];
+                    entityType1 = [LIFTABLE Constant: EntityType: IdentityUser | Resolver: namelessParameter{0} => namelessParameter{0}.Dependencies.Model.FindEntityType("Microsoft.AspNetCore.Identity.IdentityUser")];
+                    instance1 = switch (entityType1)
+                    {
+                        case [LIFTABLE Constant: EntityType: IdentityUser | Resolver: namelessParameter{1} => namelessParameter{1}.Dependencies.Model.FindEntityType("Microsoft.AspNetCore.Identity.IdentityUser")]: 
+                            {
+                                return 
+                                {
+                                    IdentityUser instance;
+                                    instance = new IdentityUser();
+                                    instance.<Id>k__BackingField = dataReader.GetString(0);
+                                    instance.<AccessFailedCount>k__BackingField = dataReader.GetInt32(1);
+                                    instance.<ConcurrencyStamp>k__BackingField = dataReader.IsDBNull(2) ? default(string) : dataReader.GetString(2);
+                                    instance.<Email>k__BackingField = dataReader.IsDBNull(3) ? default(string) : dataReader.GetString(3);
+                                    instance.<EmailConfirmed>k__BackingField = dataReader.GetBoolean(4);
+                                    instance.<LockoutEnabled>k__BackingField = dataReader.GetBoolean(5);
+                                    instance.<LockoutEnd>k__BackingField = dataReader.IsDBNull(6) ? default(DateTimeOffset?) : (DateTimeOffset?)dataReader.GetFieldValue<DateTimeOffset>(6);
+                                    instance.<NormalizedEmail>k__BackingField = dataReader.IsDBNull(7) ? default(string) : dataReader.GetString(7);
+                                    instance.<NormalizedUserName>k__BackingField = dataReader.IsDBNull(8) ? default(string) : dataReader.GetString(8);
+                                    instance.<PasswordHash>k__BackingField = dataReader.IsDBNull(9) ? default(string) : dataReader.GetString(9);
+                                    instance.<PhoneNumber>k__BackingField = dataReader.IsDBNull(10) ? default(string) : dataReader.GetString(10);
+                                    instance.<PhoneNumberConfirmed>k__BackingField = dataReader.GetBoolean(11);
+                                    instance.<SecurityStamp>k__BackingField = dataReader.IsDBNull(12) ? default(string) : dataReader.GetString(12);
+                                    instance.<TwoFactorEnabled>k__BackingField = dataReader.GetBoolean(13);
+                                    instance.<UserName>k__BackingField = dataReader.IsDBNull(14) ? default(string) : dataReader.GetString(14);
+                                    (instance is IInjectableService) ? ((IInjectableService)instance).Injected(
+                                        context: materializationContext1.Context, 
+                                        entity: instance, 
+                                        queryTrackingBehavior: TrackAll, 
+                                        structuralType: [LIFTABLE Constant: EntityType: IdentityUser | Resolver: namelessParameter{2} => namelessParameter{2}.Dependencies.Model.FindEntityType("Microsoft.AspNetCore.Identity.IdentityUser")]) : default(void);
+                                    return instance;
+                                }}
+                        default: 
+                            default(IdentityUser)
+                    }
+                    ;
+                    entry1 = entityType1 == default(IEntityType) ? default(InternalEntityEntry) : queryContext.StartTracking(
+                        entityType: entityType1, 
+                        entity: instance1, 
+                        snapshot: shadowSnapshot1);
+                    return instance1;
+                } : default(void);
+                return instance1;
+            };
+            return entity;
+        }, 
+        contextType: WebApplication2.MDbContext.AuthenticationDbContext, 
+        standAloneStateManager: False, 
+        detailedErrorsEnabled: False, 
+        threadSafetyChecksEnabled: True), 
+    cancellationToken: queryContext.CancellationToken)'
+2025-09-13 21:53:54.357 +05:30 [DBG] Creating DbConnection.
+2025-09-13 21:53:54.394 +05:30 [DBG] Created DbConnection. (36ms).
+2025-09-13 21:53:54.402 +05:30 [DBG] Opening connection to database 'MyCompanyAuthentication' on server '10.10.12.95'.
+2025-09-13 21:54:21.286 +05:30 [DBG] Connection id "0HNFIS7AF4NON" received FIN.
+2025-09-13 21:54:21.298 +05:30 [DBG] Connection id "0HNFIS7AF4NON" disconnecting.
+2025-09-13 21:54:21.301 +05:30 [DBG] Connection id "0HNFIS7AF4NON" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-09-13 21:54:21.314 +05:30 [DBG] Connection id "0HNFIS7AF4NON" stopped.
+2025-09-13 21:54:37.408 +05:30 [ERR] An error occurred using the connection to database 'MyCompanyAuthentication' on server '10.10.12.95'.
+2025-09-13 21:54:37.461 +05:30 [ERR] An exception occurred while iterating over the results of a query for context type 'WebApplication2.MDbContext.AuthenticationDbContext'.
+System.InvalidOperationException: An exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure' to the 'UseSqlServer' call.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+ ---> System.ComponentModel.Win32Exception (64): The specified network name is no longer available.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:64,State:0,Class:20
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.InvalidOperationException: An exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure' to the 'UseSqlServer' call.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+ ---> System.ComponentModel.Win32Exception (64): The specified network name is no longer available.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:64,State:0,Class:20
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2025-09-13 21:54:39.272 +05:30 [INF] Executed action WebApplication2.Controllers.AuthController.Login (WebApplication2) in 47899.0396ms
+2025-09-13 21:54:39.345 +05:30 [INF] Executed endpoint 'WebApplication2.Controllers.AuthController.Login (WebApplication2)'
+2025-09-13 21:54:39.359 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: An exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure' to the 'UseSqlServer' call.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+ ---> System.ComponentModel.Win32Exception (64): The specified network name is no longer available.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:64,State:0,Class:20
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Identity.UserManager`1.FindByEmailAsync(String email)
+   at WebApplication2.Controllers.AuthController.Login(LoginDto loginDto) in D:\ASP.Net CORE WEB API\WebApplication2\WebApplication2\Controllers\AuthController.cs:line 58
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-09-13 21:54:39.633 +05:30 [DBG] Connection id "0HNFIS7AF4NOO" completed keep alive response.
+2025-09-13 21:54:39.640 +05:30 [DBG] 'AuthenticationDbContext' disposed.
+2025-09-13 21:54:39.644 +05:30 [DBG] Connection id "0HNFIS7AF4NOO" received FIN.
+2025-09-13 21:54:39.660 +05:30 [DBG] Connection id "0HNFIS7AF4NOO" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-09-13 21:54:39.671 +05:30 [DBG] Connection id "0HNFIS7AF4NOO" disconnecting.
+2025-09-13 21:54:39.667 +05:30 [DBG] Disposing connection to database 'MyCompanyAuthentication' on server '10.10.12.95'.
+2025-09-13 21:54:39.687 +05:30 [DBG] Disposed connection to database '' on server '' (13ms).
+2025-09-13 21:54:39.690 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5041/api/Auth/login - 500 null text/plain; charset=utf-8 48455.4337ms
+2025-09-13 21:54:39.696 +05:30 [DBG] Connection id "0HNFIS7AF4NOO" stopped.
+2025-09-13 21:54:49.594 +05:30 [DBG] Connection id "0HNFIS7AF4NOP" accepted.
+2025-09-13 21:54:49.673 +05:30 [DBG] Connection id "0HNFIS7AF4NOP" started.
+2025-09-13 21:54:49.678 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5041/api/Auth/login - application/json 62
+2025-09-13 21:54:49.688 +05:30 [DBG] 1 candidate(s) found for the request path '/api/Auth/login'
+2025-09-13 21:54:49.689 +05:30 [DBG] Endpoint 'WebApplication2.Controllers.AuthController.Login (WebApplication2)' with route pattern 'api/Auth/login' is valid for the request path '/api/Auth/login'
+2025-09-13 21:54:49.700 +05:30 [DBG] Request matched endpoint 'WebApplication2.Controllers.AuthController.Login (WebApplication2)'
+2025-09-13 21:54:49.703 +05:30 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-09-13 21:54:49.706 +05:30 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2025-09-13 21:54:49.712 +05:30 [INF] Executing endpoint 'WebApplication2.Controllers.AuthController.Login (WebApplication2)'
+2025-09-13 21:54:49.714 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(WebApplication2.DTO.LoginDto) on controller WebApplication2.Controllers.AuthController (WebApplication2).
+2025-09-13 21:54:49.721 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-09-13 21:54:49.723 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-09-13 21:54:49.730 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-09-13 21:54:49.736 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-09-13 21:54:49.739 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-09-13 21:54:49.746 +05:30 [DBG] Executing controller factory for controller WebApplication2.Controllers.AuthController (WebApplication2)
+2025-09-13 21:54:49.753 +05:30 [DBG] Executed controller factory for controller WebApplication2.Controllers.AuthController (WebApplication2)
+2025-09-13 21:54:49.756 +05:30 [DBG] Attempting to bind parameter 'loginDto' of type 'WebApplication2.DTO.LoginDto' ...
+2025-09-13 21:54:49.762 +05:30 [DBG] Attempting to bind parameter 'loginDto' of type 'WebApplication2.DTO.LoginDto' using the name '' in request data ...
+2025-09-13 21:54:49.765 +05:30 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2025-09-13 21:54:49.768 +05:30 [DBG] Connection id "0HNFIS7AF4NOP", Request id "0HNFIS7AF4NOP:00000001": started reading request body.
+2025-09-13 21:54:49.773 +05:30 [DBG] Connection id "0HNFIS7AF4NOP", Request id "0HNFIS7AF4NOP:00000001": done reading request body.
+2025-09-13 21:54:49.779 +05:30 [DBG] JSON input formatter succeeded, deserializing to type 'WebApplication2.DTO.LoginDto'
+2025-09-13 21:54:49.781 +05:30 [DBG] Done attempting to bind parameter 'loginDto' of type 'WebApplication2.DTO.LoginDto'.
+2025-09-13 21:54:49.783 +05:30 [DBG] Done attempting to bind parameter 'loginDto' of type 'WebApplication2.DTO.LoginDto'.
+2025-09-13 21:54:49.785 +05:30 [DBG] Attempting to validate the bound parameter 'loginDto' of type 'WebApplication2.DTO.LoginDto' ...
+2025-09-13 21:54:49.790 +05:30 [DBG] Done attempting to validate the bound parameter 'loginDto' of type 'WebApplication2.DTO.LoginDto'.
+2025-09-13 21:54:49.905 +05:30 [DBG] Entity Framework Core 9.0.8 initialized 'AuthenticationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:9.0.8' with options: EngineType=SqlServer 
+2025-09-13 21:54:49.921 +05:30 [DBG] Creating DbConnection.
+2025-09-13 21:54:49.923 +05:30 [DBG] Created DbConnection. (1ms).
+2025-09-13 21:54:49.930 +05:30 [DBG] Opening connection to database 'MyCompanyAuthentication' on server '10.10.12.95'.
+2025-09-13 21:54:50.669 +05:30 [DBG] Opened connection to database 'MyCompanyAuthentication' on server '10.10.12.95'.
+2025-09-13 21:54:50.678 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-09-13 21:54:50.695 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (7ms).
+2025-09-13 21:54:50.719 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (41ms).
+2025-09-13 21:54:50.754 +05:30 [DBG] Executing DbCommand [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2025-09-13 21:54:50.989 +05:30 [INF] Executed DbCommand (242ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2025-09-13 21:54:51.081 +05:30 [DBG] Context 'AuthenticationDbContext' started tracking 'IdentityUser' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-09-13 21:54:51.153 +05:30 [DBG] Closing data reader to 'MyCompanyAuthentication' on server '10.10.12.95'.
+2025-09-13 21:54:51.169 +05:30 [DBG] A data reader for 'MyCompanyAuthentication' on server '10.10.12.95' is being disposed after spending 167ms reading results.
+2025-09-13 21:54:51.186 +05:30 [DBG] Closing connection to database 'MyCompanyAuthentication' on server '10.10.12.95'.
+2025-09-13 21:54:51.198 +05:30 [DBG] Closed connection to database 'MyCompanyAuthentication' on server '10.10.12.95' (11ms).
+2025-09-13 21:54:51.508 +05:30 [DBG] Compiling query expression: 
+'DbSet<IdentityUserRole<string>>()
+    .Join(
+        inner: DbSet<IdentityRole>(), 
+        outerKeySelector: userRole => userRole.RoleId, 
+        innerKeySelector: role => role.Id, 
+        resultSelector: (userRole, role) => new { 
+            userRole = userRole, 
+            role = role
+         })
+    .Where(<>h__TransparentIdentifier0 => <>h__TransparentIdentifier0.userRole.UserId.Equals(__userId_0))
+    .Select(<>h__TransparentIdentifier0 => <>h__TransparentIdentifier0.role.Name)'
+2025-09-13 21:54:51.599 +05:30 [DBG] Generated query execution expression: 
+'queryContext => SingleQueryingEnumerable.Create<string>(
+    relationalQueryContext: (RelationalQueryContext)queryContext, 
+    relationalCommandResolver: parameters => [LIFTABLE Constant: RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> 0
+        SELECT a0.Name
+        FROM AspNetUserRoles AS a
+        INNER JOIN AspNetRoles AS a0 ON a.RoleId == a0.Id
+        WHERE a.UserId == @__userId_0) | Resolver: c => new RelationalCommandCache(
+        c.Dependencies.MemoryCache, 
+        c.RelationalDependencies.QuerySqlGeneratorFactory, 
+        c.RelationalDependencies.RelationalParameterBasedSqlProcessorFactory, 
+        Projection Mapping:
+            EmptyProjectionMember -> 0
+        SELECT a0.Name
+        FROM AspNetUserRoles AS a
+        INNER JOIN AspNetRoles AS a0 ON a.RoleId == a0.Id
+        WHERE a.UserId == @__userId_0, 
+        False, 
+        new HashSet<string>(
+            new string[]{ }, 
+            StringComparer.Ordinal
+        )
+    )].GetRelationalCommandTemplate(parameters), 
+    readerColumns: null, 
+    shaper: (queryContext, dataReader, resultContext, resultCoordinator) => 
+    {
+        string value1;
+        value1 = dataReader.IsDBNull(0) ? default(string) : dataReader.GetString(0);
+        return value1;
+    }, 
+    contextType: WebApplication2.MDbContext.AuthenticationDbContext, 
+    standAloneStateManager: False, 
+    detailedErrorsEnabled: False, 
+    threadSafetyChecksEnabled: True)'
+2025-09-13 21:54:51.638 +05:30 [DBG] Opening connection to database 'MyCompanyAuthentication' on server '10.10.12.95'.
+2025-09-13 21:54:51.645 +05:30 [DBG] Opened connection to database 'MyCompanyAuthentication' on server '10.10.12.95'.
+2025-09-13 21:54:51.652 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-09-13 21:54:51.669 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (16ms).
+2025-09-13 21:54:51.687 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (35ms).
+2025-09-13 21:54:51.696 +05:30 [DBG] Executing DbCommand [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2025-09-13 21:54:51.766 +05:30 [INF] Executed DbCommand (70ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2025-09-13 21:54:51.775 +05:30 [DBG] Closing data reader to 'MyCompanyAuthentication' on server '10.10.12.95'.
+2025-09-13 21:54:51.777 +05:30 [DBG] A data reader for 'MyCompanyAuthentication' on server '10.10.12.95' is being disposed after spending 5ms reading results.
+2025-09-13 21:54:51.781 +05:30 [DBG] Closing connection to database 'MyCompanyAuthentication' on server '10.10.12.95'.
+2025-09-13 21:54:51.786 +05:30 [DBG] Closed connection to database 'MyCompanyAuthentication' on server '10.10.12.95' (4ms).
+2025-09-13 21:54:51.904 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-09-13 21:54:51.915 +05:30 [DBG] No information found on request to perform content negotiation.
+2025-09-13 21:54:51.916 +05:30 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-09-13 21:54:51.919 +05:30 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-09-13 21:54:51.929 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-09-13 21:54:51.933 +05:30 [INF] Executing OkObjectResult, writing value of type 'WebApplication2.DTO.LoginSuccessDto'.
+2025-09-13 21:54:51.943 +05:30 [INF] Executed action WebApplication2.Controllers.AuthController.Login (WebApplication2) in 2196.0466ms
+2025-09-13 21:54:51.945 +05:30 [INF] Executed endpoint 'WebApplication2.Controllers.AuthController.Login (WebApplication2)'
+2025-09-13 21:54:51.947 +05:30 [DBG] Connection id "0HNFIS7AF4NOP" completed keep alive response.
+2025-09-13 21:54:51.950 +05:30 [DBG] 'AuthenticationDbContext' disposed.
+2025-09-13 21:54:51.952 +05:30 [DBG] Disposing connection to database 'MyCompanyAuthentication' on server '10.10.12.95'.
+2025-09-13 21:54:51.959 +05:30 [DBG] Disposed connection to database '' on server '' (7ms).
+2025-09-13 21:54:51.962 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5041/api/Auth/login - 200 null application/json; charset=utf-8 2284.6158ms
+2025-09-13 21:55:27.824 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5041/api/projects - null null
+2025-09-13 21:55:27.841 +05:30 [DBG] 1 candidate(s) found for the request path '/api/projects'
+2025-09-13 21:55:27.848 +05:30 [DBG] Endpoint 'WebApplication2.Controllers.ProjectController.GetAllProjects (WebApplication2)' with route pattern 'api/projects' is valid for the request path '/api/projects'
+2025-09-13 21:55:27.889 +05:30 [DBG] Request matched endpoint 'WebApplication2.Controllers.ProjectController.GetAllProjects (WebApplication2)'
+2025-09-13 21:55:27.891 +05:30 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-09-13 21:55:28.002 +05:30 [DBG] Successfully validated the token.
+2025-09-13 21:55:28.007 +05:30 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2025-09-13 21:55:28.027 +05:30 [DBG] Authorization was successful.
+2025-09-13 21:55:28.029 +05:30 [INF] Executing endpoint 'WebApplication2.Controllers.ProjectController.GetAllProjects (WebApplication2)'
+2025-09-13 21:55:28.041 +05:30 [INF] Route matched with {action = "GetAllProjects", controller = "Project"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllProjects() on controller WebApplication2.Controllers.ProjectController (WebApplication2).
+2025-09-13 21:55:28.050 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-09-13 21:55:28.055 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-09-13 21:55:28.058 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-09-13 21:55:28.072 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-09-13 21:55:28.074 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-09-13 21:55:28.086 +05:30 [DBG] Executing controller factory for controller WebApplication2.Controllers.ProjectController (WebApplication2)
+2025-09-13 21:55:28.101 +05:30 [DBG] Executed controller factory for controller WebApplication2.Controllers.ProjectController (WebApplication2)
+2025-09-13 21:55:28.371 +05:30 [DBG] The index {'EmployeesId'} was not created on entity type 'EmployeeProject (Dictionary<string, object>)' as the properties are already covered by the index {'EmployeesId', 'ProjectsProjectId'}.
+2025-09-13 21:55:28.402 +05:30 [DBG] Entity Framework Core 9.0.8 initialized 'MyDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:9.0.8' with options: EngineType=SqlServer 
+2025-09-13 21:55:28.408 +05:30 [DBG] Compiling query expression: 
+'DbSet<Project>()'
+2025-09-13 21:55:28.430 +05:30 [DBG] Generated query execution expression: 
+'queryContext => SingleQueryingEnumerable.Create<Project>(
+    relationalQueryContext: (RelationalQueryContext)queryContext, 
+    relationalCommandResolver: parameters => [LIFTABLE Constant: RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Project.ProjectId (int) Required PK AfterSave:Throw, 0], [Property: Project.ProjectName (string) Required, 1] }
+        SELECT p.ProjectId, p.ProjectName
+        FROM Projects AS p) | Resolver: c => new RelationalCommandCache(
+        c.Dependencies.MemoryCache, 
+        c.RelationalDependencies.QuerySqlGeneratorFactory, 
+        c.RelationalDependencies.RelationalParameterBasedSqlProcessorFactory, 
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Project.ProjectId (int) Required PK AfterSave:Throw, 0], [Property: Project.ProjectName (string) Required, 1] }
+        SELECT p.ProjectId, p.ProjectName
+        FROM Projects AS p, 
+        False, 
+        new HashSet<string>(
+            new string[]{ }, 
+            StringComparer.Ordinal
+        )
+    )].GetRelationalCommandTemplate(parameters), 
+    readerColumns: null, 
+    shaper: (queryContext, dataReader, resultContext, resultCoordinator) => 
+    {
+        Project entity;
+        entity = 
+        {
+            MaterializationContext materializationContext1;
+            IEntityType entityType1;
+            Project instance1;
+            InternalEntityEntry entry1;
+            bool hasNullKey1;
+            materializationContext1 = new MaterializationContext(
+                [LIFTABLE Constant: ValueBuffer | Resolver: _ => (object)ValueBuffer.Empty], 
+                queryContext.Context
+            );
+            instance1 = default(Project);
+            entry1 = queryContext.TryGetEntry(
+                key: [LIFTABLE Constant: Key: Project.ProjectId PK | Resolver: c => c.Dependencies.Model.FindEntityType("WebApplication2.Models.Project").FindPrimaryKey()], 
+                keyValues: new object[]{ (object)dataReader.GetInt32(0) }, 
+                throwOnNullKey: True, 
+                hasNullKey: hasNullKey1);
+            !(hasNullKey1) ? entry1 != default(InternalEntityEntry) ? 
+            {
+                entityType1 = entry1.EntityType;
+                return instance1 = (Project)entry1.Entity;
+            } : 
+            {
+                ISnapshot shadowSnapshot1;
+                shadowSnapshot1 = [LIFTABLE Constant: Snapshot | Resolver: _ => Snapshot.Empty];
+                entityType1 = [LIFTABLE Constant: EntityType: Project | Resolver: namelessParameter{0} => namelessParameter{0}.Dependencies.Model.FindEntityType("WebApplication2.Models.Project")];
+                instance1 = switch (entityType1)
+                {
+                    case [LIFTABLE Constant: EntityType: Project | Resolver: namelessParameter{1} => namelessParameter{1}.Dependencies.Model.FindEntityType("WebApplication2.Models.Project")]: 
+                        {
+                            return 
+                            {
+                                Project instance;
+                                instance = new Project();
+                                instance.<ProjectId>k__BackingField = dataReader.GetInt32(0);
+                                instance.<ProjectName>k__BackingField = dataReader.GetString(1);
+                                (instance is IInjectableService) ? ((IInjectableService)instance).Injected(
+                                    context: materializationContext1.Context, 
+                                    entity: instance, 
+                                    queryTrackingBehavior: TrackAll, 
+                                    structuralType: [LIFTABLE Constant: EntityType: Project | Resolver: namelessParameter{2} => namelessParameter{2}.Dependencies.Model.FindEntityType("WebApplication2.Models.Project")]) : default(void);
+                                return instance;
+                            }}
+                    default: 
+                        default(Project)
+                }
+                ;
+                entry1 = entityType1 == default(IEntityType) ? default(InternalEntityEntry) : queryContext.StartTracking(
+                    entityType: entityType1, 
+                    entity: instance1, 
+                    snapshot: shadowSnapshot1);
+                return instance1;
+            } : default(void);
+            return instance1;
+        };
+        return entity;
+    }, 
+    contextType: WebApplication2.MDbContext.MyDbContext, 
+    standAloneStateManager: False, 
+    detailedErrorsEnabled: False, 
+    threadSafetyChecksEnabled: True)'
+2025-09-13 21:55:28.482 +05:30 [DBG] Creating DbConnection.
+2025-09-13 21:55:28.485 +05:30 [DBG] Created DbConnection. (2ms).
+2025-09-13 21:55:28.488 +05:30 [DBG] Opening connection to database 'MyCompany' on server '10.10.12.95'.
+2025-09-13 21:55:29.351 +05:30 [DBG] Opened connection to database 'MyCompany' on server '10.10.12.95'.
+2025-09-13 21:55:29.357 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-09-13 21:55:29.361 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (3ms).
+2025-09-13 21:55:29.364 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (6ms).
+2025-09-13 21:55:29.367 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ProjectId], [p].[ProjectName]
+FROM [Projects] AS [p]
+2025-09-13 21:55:29.435 +05:30 [INF] Executed DbCommand (68ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ProjectId], [p].[ProjectName]
+FROM [Projects] AS [p]
+2025-09-13 21:55:29.457 +05:30 [DBG] Context 'MyDbContext' started tracking 'Project' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-09-13 21:55:29.469 +05:30 [DBG] Context 'MyDbContext' started tracking 'Project' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-09-13 21:55:29.472 +05:30 [DBG] Context 'MyDbContext' started tracking 'Project' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-09-13 21:55:29.483 +05:30 [DBG] Closing data reader to 'MyCompany' on server '10.10.12.95'.
+2025-09-13 21:55:29.485 +05:30 [DBG] A data reader for 'MyCompany' on server '10.10.12.95' is being disposed after spending 46ms reading results.
+2025-09-13 21:55:29.491 +05:30 [DBG] Closing connection to database 'MyCompany' on server '10.10.12.95'.
+2025-09-13 21:55:29.498 +05:30 [DBG] Closed connection to database 'MyCompany' on server '10.10.12.95' (7ms).
+2025-09-13 21:55:29.503 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-09-13 21:55:29.508 +05:30 [DBG] No information found on request to perform content negotiation.
+2025-09-13 21:55:29.514 +05:30 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-09-13 21:55:29.520 +05:30 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-09-13 21:55:29.522 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-09-13 21:55:29.524 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebApplication2.DTO.ProjectDTO, WebApplication2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-09-13 21:55:29.538 +05:30 [INF] Executed action WebApplication2.Controllers.ProjectController.GetAllProjects (WebApplication2) in 1452.205ms
+2025-09-13 21:55:29.541 +05:30 [INF] Executed endpoint 'WebApplication2.Controllers.ProjectController.GetAllProjects (WebApplication2)'
+2025-09-13 21:55:29.547 +05:30 [DBG] Connection id "0HNFIS7AF4NOP" completed keep alive response.
+2025-09-13 21:55:29.552 +05:30 [DBG] 'MyDbContext' disposed.
+2025-09-13 21:55:29.555 +05:30 [DBG] Disposing connection to database 'MyCompany' on server '10.10.12.95'.
+2025-09-13 21:55:29.571 +05:30 [DBG] Disposed connection to database '' on server '' (15ms).
+2025-09-13 21:55:29.578 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5041/api/projects - 200 null application/json; charset=utf-8 1753.838ms
+2025-09-13 21:58:22.769 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-09-13 21:58:22.967 +05:30 [DBG] Hosting starting
+2025-09-13 21:58:23.079 +05:30 [INF] User profile is available. Using 'C:\Users\vedha\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-09-13 21:58:23.103 +05:30 [DBG] Reading data from file 'C:\Users\vedha\AppData\Local\ASP.NET\DataProtection-Keys\key-662271e6-d3c1-49ca-ba85-98c8aede3df8.xml'.
+2025-09-13 21:58:23.122 +05:30 [DBG] Found key {662271e6-d3c1-49ca-ba85-98c8aede3df8}.
+2025-09-13 21:58:23.139 +05:30 [DBG] Considering key {662271e6-d3c1-49ca-ba85-98c8aede3df8} with expiration date 2025-12-03 16:49:00Z as default key.
+2025-09-13 21:58:23.146 +05:30 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-09-13 21:58:23.154 +05:30 [DBG] Decrypting secret element using Windows DPAPI.
+2025-09-13 21:58:23.163 +05:30 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-09-13 21:58:23.172 +05:30 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2025-09-13 21:58:23.176 +05:30 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2025-09-13 21:58:23.180 +05:30 [DBG] Using key {662271e6-d3c1-49ca-ba85-98c8aede3df8} as the default key.
+2025-09-13 21:58:23.184 +05:30 [DBG] Key ring with default key {662271e6-d3c1-49ca-ba85-98c8aede3df8} was loaded during application startup.
+2025-09-13 21:58:23.198 +05:30 [DBG] Middleware loaded
+2025-09-13 21:58:23.205 +05:30 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16515 B).
+2025-09-13 21:58:23.212 +05:30 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2025-09-13 21:58:23.366 +05:30 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+2025-09-13 21:58:23.478 +05:30 [INF] Now listening on: http://localhost:5041
+2025-09-13 21:58:23.480 +05:30 [DBG] Loaded hosting startup assembly WebApplication2
+2025-09-13 21:58:23.486 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-09-13 21:58:23.487 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-09-13 21:58:23.489 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-09-13 21:58:23.500 +05:30 [DBG] Connection id "0HNFISA7IMV4E" accepted.
+2025-09-13 21:58:23.504 +05:30 [DBG] Connection id "0HNFISA7IMV4E" started.
+2025-09-13 21:58:23.521 +05:30 [DBG] Connection id "0HNFISA7IMV4E" received FIN.
+2025-09-13 21:58:23.543 +05:30 [DBG] Connection id "0HNFISA7IMV4E" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-09-13 21:58:23.550 +05:30 [DBG] Connection id "0HNFISA7IMV4E" disconnecting.
+2025-09-13 21:58:23.555 +05:30 [DBG] Connection id "0HNFISA7IMV4E" stopped.
+2025-09-13 21:58:23.761 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-13 21:58:23.771 +05:30 [INF] Hosting environment: Development
+2025-09-13 21:58:23.777 +05:30 [INF] Content root path: D:\ASP.Net CORE WEB API\WebApplication2\WebApplication2
+2025-09-13 21:58:23.810 +05:30 [DBG] Hosting started
+2025-09-13 21:58:24.155 +05:30 [DBG] Connection id "0HNFISA7IMV4F" accepted.
+2025-09-13 21:58:24.537 +05:30 [DBG] Connection id "0HNFISA7IMV4F" started.
+2025-09-13 21:58:24.544 +05:30 [DBG] Connection id "0HNFISA7IMV4G" accepted.
+2025-09-13 21:58:24.570 +05:30 [DBG] Connection id "0HNFISA7IMV4G" started.
+2025-09-13 21:58:24.675 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5041/swagger/index.html - null null
+2025-09-13 21:58:25.150 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-09-13 21:58:25.222 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2025-09-13 21:58:25.325 +05:30 [DBG] Request did not match any endpoints
+2025-09-13 21:58:25.496 +05:30 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-09-13 21:58:25.527 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-09-13 21:58:25.576 +05:30 [DBG] Response markup was updated to include Browser Link script injection.
+2025-09-13 21:58:25.590 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2025-09-13 21:58:25.593 +05:30 [DBG] Connection id "0HNFISA7IMV4G" completed keep alive response.
+2025-09-13 21:58:25.719 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5041/_vs/browserLink - null null
+2025-09-13 21:58:25.852 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5041/swagger/index.html - 200 null text/html;charset=utf-8 1188.8246ms
+2025-09-13 21:58:25.951 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5041/_framework/aspnetcore-browser-refresh.js - null null
+2025-09-13 21:58:25.959 +05:30 [DBG] Script injected: /_framework/aspnetcore-browser-refresh.js
+2025-09-13 21:58:25.962 +05:30 [DBG] Connection id "0HNFISA7IMV4G" completed keep alive response.
+2025-09-13 21:58:25.966 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5041/_framework/aspnetcore-browser-refresh.js - 200 16515 application/javascript; charset=utf-8 15.1095ms
+2025-09-13 21:58:26.023 +05:30 [DBG] Connection id "0HNFISA7IMV4F" completed keep alive response.
+2025-09-13 21:58:26.028 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5041/_vs/browserLink - 200 null text/javascript; charset=UTF-8 309.2185ms
+2025-09-13 21:58:26.136 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5041/swagger/v1/swagger.json - null null
+2025-09-13 21:58:26.141 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2025-09-13 21:58:26.142 +05:30 [DBG] Request did not match any endpoints
+2025-09-13 21:58:26.179 +05:30 [DBG] Connection id "0HNFISA7IMV4F" completed keep alive response.
+2025-09-13 21:58:26.286 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5041/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 150.5242ms

@@ -1,0 +1,856 @@
+2025-09-22 17:54:08.909 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-09-22 17:54:09.443 +05:30 [DBG] Hosting starting
+2025-09-22 17:54:10.026 +05:30 [INF] User profile is available. Using 'C:\Users\vedha\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-09-22 17:54:10.058 +05:30 [DBG] Reading data from file 'C:\Users\vedha\AppData\Local\ASP.NET\DataProtection-Keys\key-662271e6-d3c1-49ca-ba85-98c8aede3df8.xml'.
+2025-09-22 17:54:10.110 +05:30 [DBG] Found key {662271e6-d3c1-49ca-ba85-98c8aede3df8}.
+2025-09-22 17:54:10.139 +05:30 [DBG] Considering key {662271e6-d3c1-49ca-ba85-98c8aede3df8} with expiration date 2025-12-03 16:49:00Z as default key.
+2025-09-22 17:54:10.146 +05:30 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-09-22 17:54:10.154 +05:30 [DBG] Decrypting secret element using Windows DPAPI.
+2025-09-22 17:54:10.162 +05:30 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-09-22 17:54:10.174 +05:30 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2025-09-22 17:54:10.178 +05:30 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2025-09-22 17:54:10.187 +05:30 [DBG] Using key {662271e6-d3c1-49ca-ba85-98c8aede3df8} as the default key.
+2025-09-22 17:54:10.190 +05:30 [DBG] Key ring with default key {662271e6-d3c1-49ca-ba85-98c8aede3df8} was loaded during application startup.
+2025-09-22 17:54:10.205 +05:30 [DBG] Middleware loaded
+2025-09-22 17:54:10.210 +05:30 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16515 B).
+2025-09-22 17:54:10.223 +05:30 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2025-09-22 17:54:10.755 +05:30 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+2025-09-22 17:54:11.107 +05:30 [INF] Now listening on: http://localhost:5041
+2025-09-22 17:54:11.137 +05:30 [DBG] Loaded hosting startup assembly WebApplication2
+2025-09-22 17:54:11.146 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-09-22 17:54:11.151 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-09-22 17:54:11.166 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-09-22 17:54:11.285 +05:30 [DBG] Connection id "0HNFPQBNNPBH4" accepted.
+2025-09-22 17:54:11.316 +05:30 [DBG] Connection id "0HNFPQBNNPBH4" started.
+2025-09-22 17:54:11.320 +05:30 [DBG] Connection id "0HNFPQBNNPBH4" received FIN.
+2025-09-22 17:54:11.384 +05:30 [DBG] Connection id "0HNFPQBNNPBH4" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-09-22 17:54:11.391 +05:30 [DBG] Connection id "0HNFPQBNNPBH4" disconnecting.
+2025-09-22 17:54:11.395 +05:30 [DBG] Connection id "0HNFPQBNNPBH4" stopped.
+2025-09-22 17:54:11.407 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-22 17:54:11.427 +05:30 [INF] Hosting environment: Development
+2025-09-22 17:54:11.429 +05:30 [INF] Content root path: D:\ASP.Net CORE WEB API\WebApplication2\WebApplication2
+2025-09-22 17:54:11.432 +05:30 [DBG] Hosting started
+2025-09-22 17:54:13.092 +05:30 [DBG] Connection id "0HNFPQBNNPBH5" accepted.
+2025-09-22 17:54:13.424 +05:30 [DBG] Connection id "0HNFPQBNNPBH5" started.
+2025-09-22 17:54:13.426 +05:30 [DBG] Connection id "0HNFPQBNNPBH6" accepted.
+2025-09-22 17:54:13.472 +05:30 [DBG] Connection id "0HNFPQBNNPBH6" started.
+2025-09-22 17:54:13.597 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5041/swagger/index.html - null null
+2025-09-22 17:54:14.066 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-09-22 17:54:14.123 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2025-09-22 17:54:14.126 +05:30 [DBG] Request did not match any endpoints
+2025-09-22 17:54:14.340 +05:30 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-09-22 17:54:14.344 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-09-22 17:54:14.433 +05:30 [DBG] Response markup was updated to include Browser Link script injection.
+2025-09-22 17:54:14.435 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2025-09-22 17:54:14.437 +05:30 [DBG] Connection id "0HNFPQBNNPBH6" completed keep alive response.
+2025-09-22 17:54:14.442 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5041/swagger/index.html - 200 null text/html;charset=utf-8 865.3386ms
+2025-09-22 17:54:14.532 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5041/_framework/aspnetcore-browser-refresh.js - null null
+2025-09-22 17:54:14.555 +05:30 [DBG] Script injected: /_framework/aspnetcore-browser-refresh.js
+2025-09-22 17:54:14.567 +05:30 [DBG] Connection id "0HNFPQBNNPBH6" completed keep alive response.
+2025-09-22 17:54:14.569 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5041/_framework/aspnetcore-browser-refresh.js - 200 16515 application/javascript; charset=utf-8 37.0929ms
+2025-09-22 17:54:14.666 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5041/_vs/browserLink - null null
+2025-09-22 17:54:14.818 +05:30 [DBG] Connection id "0HNFPQBNNPBH6" completed keep alive response.
+2025-09-22 17:54:14.820 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5041/_vs/browserLink - 200 null text/javascript; charset=UTF-8 154.1455ms
+2025-09-22 17:54:14.954 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5041/swagger/v1/swagger.json - null null
+2025-09-22 17:54:14.993 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5041/swagger/favicon-32x32.png - null null
+2025-09-22 17:54:15.043 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2025-09-22 17:54:15.049 +05:30 [DBG] No candidates found for the request path '/swagger/favicon-32x32.png'
+2025-09-22 17:54:15.051 +05:30 [DBG] Request did not match any endpoints
+2025-09-22 17:54:15.053 +05:30 [DBG] Request did not match any endpoints
+2025-09-22 17:54:15.068 +05:30 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2025-09-22 17:54:15.070 +05:30 [DBG] Connection id "0HNFPQBNNPBH5" completed keep alive response.
+2025-09-22 17:54:15.072 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5041/swagger/favicon-32x32.png - 200 628 image/png 78.7954ms
+2025-09-22 17:54:15.088 +05:30 [DBG] Connection id "0HNFPQBNNPBH6" completed keep alive response.
+2025-09-22 17:54:15.092 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5041/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 138.2683ms
+2025-09-22 17:54:37.032 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5041/api/Auth/login - application/json 62
+2025-09-22 17:54:37.067 +05:30 [DBG] 1 candidate(s) found for the request path '/api/Auth/login'
+2025-09-22 17:54:37.090 +05:30 [DBG] Endpoint 'WebApplication2.Controllers.AuthController.Login (WebApplication2)' with route pattern 'api/Auth/login' is valid for the request path '/api/Auth/login'
+2025-09-22 17:54:37.096 +05:30 [DBG] Request matched endpoint 'WebApplication2.Controllers.AuthController.Login (WebApplication2)'
+2025-09-22 17:54:37.100 +05:30 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-09-22 17:54:37.585 +05:30 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2025-09-22 17:54:37.590 +05:30 [INF] Executing endpoint 'WebApplication2.Controllers.AuthController.Login (WebApplication2)'
+2025-09-22 17:54:37.641 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(WebApplication2.DTO.LoginDto) on controller WebApplication2.Controllers.AuthController (WebApplication2).
+2025-09-22 17:54:37.650 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-09-22 17:54:37.653 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-09-22 17:54:37.657 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-09-22 17:54:37.670 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-09-22 17:54:37.672 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-09-22 17:54:37.680 +05:30 [DBG] Executing controller factory for controller WebApplication2.Controllers.AuthController (WebApplication2)
+2025-09-22 17:54:38.245 +05:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2025-09-22 17:54:38.286 +05:30 [DBG] Executed controller factory for controller WebApplication2.Controllers.AuthController (WebApplication2)
+2025-09-22 17:54:38.296 +05:30 [DBG] Attempting to bind parameter 'loginDto' of type 'WebApplication2.DTO.LoginDto' ...
+2025-09-22 17:54:38.304 +05:30 [DBG] Attempting to bind parameter 'loginDto' of type 'WebApplication2.DTO.LoginDto' using the name '' in request data ...
+2025-09-22 17:54:38.318 +05:30 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2025-09-22 17:54:38.343 +05:30 [DBG] Connection id "0HNFPQBNNPBH6", Request id "0HNFPQBNNPBH6:00000005": started reading request body.
+2025-09-22 17:54:38.346 +05:30 [DBG] Connection id "0HNFPQBNNPBH6", Request id "0HNFPQBNNPBH6:00000005": done reading request body.
+2025-09-22 17:54:38.389 +05:30 [DBG] JSON input formatter succeeded, deserializing to type 'WebApplication2.DTO.LoginDto'
+2025-09-22 17:54:38.393 +05:30 [DBG] Done attempting to bind parameter 'loginDto' of type 'WebApplication2.DTO.LoginDto'.
+2025-09-22 17:54:38.395 +05:30 [DBG] Done attempting to bind parameter 'loginDto' of type 'WebApplication2.DTO.LoginDto'.
+2025-09-22 17:54:38.397 +05:30 [DBG] Attempting to validate the bound parameter 'loginDto' of type 'WebApplication2.DTO.LoginDto' ...
+2025-09-22 17:54:38.415 +05:30 [DBG] Done attempting to validate the bound parameter 'loginDto' of type 'WebApplication2.DTO.LoginDto'.
+2025-09-22 17:54:39.255 +05:30 [DBG] The index {'UserId'} was not created on entity type 'IdentityUserRole<string>' as the properties are already covered by the index {'UserId', 'RoleId'}.
+2025-09-22 17:54:39.260 +05:30 [DBG] The index {'UserId'} was not created on entity type 'IdentityUserToken<string>' as the properties are already covered by the index {'UserId', 'LoginProvider', 'Name'}.
+2025-09-22 17:54:39.803 +05:30 [DBG] Entity Framework Core 9.0.8 initialized 'AuthenticationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:9.0.8' with options: EngineType=SqlServer 
+2025-09-22 17:54:40.139 +05:30 [DBG] Compiling query expression: 
+'DbSet<IdentityUser>()
+    .SingleOrDefault(u => u.NormalizedEmail == __normalizedEmail_0)'
+2025-09-22 17:54:40.811 +05:30 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<IdentityUser>(
+    asyncEnumerable: SingleQueryingEnumerable.Create<IdentityUser>(
+        relationalQueryContext: (RelationalQueryContext)queryContext, 
+        relationalCommandResolver: parameters => [LIFTABLE Constant: RelationalCommandCache.QueryExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: IdentityUser.Id (string) Required PK AfterSave:Throw, 0], [Property: IdentityUser.AccessFailedCount (int) Required, 1], [Property: IdentityUser.ConcurrencyStamp (string) Concurrency, 2], [Property: IdentityUser.Email (string) MaxLength(256), 3], [Property: IdentityUser.EmailConfirmed (bool) Required, 4], [Property: IdentityUser.LockoutEnabled (bool) Required, 5], [Property: IdentityUser.LockoutEnd (DateTimeOffset?), 6], [Property: IdentityUser.NormalizedEmail (string) Index MaxLength(256), 7], [Property: IdentityUser.NormalizedUserName (string) Index MaxLength(256), 8], [Property: IdentityUser.PasswordHash (string), 9], [Property: IdentityUser.PhoneNumber (string), 10], [Property: IdentityUser.PhoneNumberConfirmed (bool) Required, 11], [Property: IdentityUser.SecurityStamp (string), 12], [Property: IdentityUser.TwoFactorEnabled (bool) Required, 13], [Property: IdentityUser.UserName (string) MaxLength(256), 14] }
+            SELECT TOP(2) a.Id, a.AccessFailedCount, a.ConcurrencyStamp, a.Email, a.EmailConfirmed, a.LockoutEnabled, a.LockoutEnd, a.NormalizedEmail, a.NormalizedUserName, a.PasswordHash, a.PhoneNumber, a.PhoneNumberConfirmed, a.SecurityStamp, a.TwoFactorEnabled, a.UserName
+            FROM AspNetUsers AS a
+            WHERE a.NormalizedEmail == @__normalizedEmail_0) | Resolver: c => new RelationalCommandCache(
+            c.Dependencies.MemoryCache, 
+            c.RelationalDependencies.QuerySqlGeneratorFactory, 
+            c.RelationalDependencies.RelationalParameterBasedSqlProcessorFactory, 
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: IdentityUser.Id (string) Required PK AfterSave:Throw, 0], [Property: IdentityUser.AccessFailedCount (int) Required, 1], [Property: IdentityUser.ConcurrencyStamp (string) Concurrency, 2], [Property: IdentityUser.Email (string) MaxLength(256), 3], [Property: IdentityUser.EmailConfirmed (bool) Required, 4], [Property: IdentityUser.LockoutEnabled (bool) Required, 5], [Property: IdentityUser.LockoutEnd (DateTimeOffset?), 6], [Property: IdentityUser.NormalizedEmail (string) Index MaxLength(256), 7], [Property: IdentityUser.NormalizedUserName (string) Index MaxLength(256), 8], [Property: IdentityUser.PasswordHash (string), 9], [Property: IdentityUser.PhoneNumber (string), 10], [Property: IdentityUser.PhoneNumberConfirmed (bool) Required, 11], [Property: IdentityUser.SecurityStamp (string), 12], [Property: IdentityUser.TwoFactorEnabled (bool) Required, 13], [Property: IdentityUser.UserName (string) MaxLength(256), 14] }
+            SELECT TOP(2) a.Id, a.AccessFailedCount, a.ConcurrencyStamp, a.Email, a.EmailConfirmed, a.LockoutEnabled, a.LockoutEnd, a.NormalizedEmail, a.NormalizedUserName, a.PasswordHash, a.PhoneNumber, a.PhoneNumberConfirmed, a.SecurityStamp, a.TwoFactorEnabled, a.UserName
+            FROM AspNetUsers AS a
+            WHERE a.NormalizedEmail == @__normalizedEmail_0, 
+            False, 
+            new HashSet<string>(
+                new string[]{ }, 
+                StringComparer.Ordinal
+            )
+        )].GetRelationalCommandTemplate(parameters), 
+        readerColumns: null, 
+        shaper: (queryContext, dataReader, resultContext, resultCoordinator) => 
+        {
+            IdentityUser entity;
+            entity = 
+            {
+                MaterializationContext materializationContext1;
+                IEntityType entityType1;
+                IdentityUser instance1;
+                InternalEntityEntry entry1;
+                bool hasNullKey1;
+                materializationContext1 = new MaterializationContext(
+                    [LIFTABLE Constant: ValueBuffer | Resolver: _ => (object)ValueBuffer.Empty], 
+                    queryContext.Context
+                );
+                instance1 = default(IdentityUser);
+                entry1 = queryContext.TryGetEntry(
+                    key: [LIFTABLE Constant: Key: IdentityUser.Id PK | Resolver: c => c.Dependencies.Model.FindEntityType("Microsoft.AspNetCore.Identity.IdentityUser").FindPrimaryKey()], 
+                    keyValues: new object[]{ (object)dataReader.GetString(0) }, 
+                    throwOnNullKey: True, 
+                    hasNullKey: hasNullKey1);
+                !(hasNullKey1) ? entry1 != default(InternalEntityEntry) ? 
+                {
+                    entityType1 = entry1.EntityType;
+                    return instance1 = (IdentityUser)entry1.Entity;
+                } : 
+                {
+                    ISnapshot shadowSnapshot1;
+                    shadowSnapshot1 = [LIFTABLE Constant: Snapshot | Resolver: _ => Snapshot.Empty];
+                    entityType1 = [LIFTABLE Constant: EntityType: IdentityUser | Resolver: namelessParameter{0} => namelessParameter{0}.Dependencies.Model.FindEntityType("Microsoft.AspNetCore.Identity.IdentityUser")];
+                    instance1 = switch (entityType1)
+                    {
+                        case [LIFTABLE Constant: EntityType: IdentityUser | Resolver: namelessParameter{1} => namelessParameter{1}.Dependencies.Model.FindEntityType("Microsoft.AspNetCore.Identity.IdentityUser")]: 
+                            {
+                                return 
+                                {
+                                    IdentityUser instance;
+                                    instance = new IdentityUser();
+                                    instance.<Id>k__BackingField = dataReader.GetString(0);
+                                    instance.<AccessFailedCount>k__BackingField = dataReader.GetInt32(1);
+                                    instance.<ConcurrencyStamp>k__BackingField = dataReader.IsDBNull(2) ? default(string) : dataReader.GetString(2);
+                                    instance.<Email>k__BackingField = dataReader.IsDBNull(3) ? default(string) : dataReader.GetString(3);
+                                    instance.<EmailConfirmed>k__BackingField = dataReader.GetBoolean(4);
+                                    instance.<LockoutEnabled>k__BackingField = dataReader.GetBoolean(5);
+                                    instance.<LockoutEnd>k__BackingField = dataReader.IsDBNull(6) ? default(DateTimeOffset?) : (DateTimeOffset?)dataReader.GetFieldValue<DateTimeOffset>(6);
+                                    instance.<NormalizedEmail>k__BackingField = dataReader.IsDBNull(7) ? default(string) : dataReader.GetString(7);
+                                    instance.<NormalizedUserName>k__BackingField = dataReader.IsDBNull(8) ? default(string) : dataReader.GetString(8);
+                                    instance.<PasswordHash>k__BackingField = dataReader.IsDBNull(9) ? default(string) : dataReader.GetString(9);
+                                    instance.<PhoneNumber>k__BackingField = dataReader.IsDBNull(10) ? default(string) : dataReader.GetString(10);
+                                    instance.<PhoneNumberConfirmed>k__BackingField = dataReader.GetBoolean(11);
+                                    instance.<SecurityStamp>k__BackingField = dataReader.IsDBNull(12) ? default(string) : dataReader.GetString(12);
+                                    instance.<TwoFactorEnabled>k__BackingField = dataReader.GetBoolean(13);
+                                    instance.<UserName>k__BackingField = dataReader.IsDBNull(14) ? default(string) : dataReader.GetString(14);
+                                    (instance is IInjectableService) ? ((IInjectableService)instance).Injected(
+                                        context: materializationContext1.Context, 
+                                        entity: instance, 
+                                        queryTrackingBehavior: TrackAll, 
+                                        structuralType: [LIFTABLE Constant: EntityType: IdentityUser | Resolver: namelessParameter{2} => namelessParameter{2}.Dependencies.Model.FindEntityType("Microsoft.AspNetCore.Identity.IdentityUser")]) : default(void);
+                                    return instance;
+                                }}
+                        default: 
+                            default(IdentityUser)
+                    }
+                    ;
+                    entry1 = entityType1 == default(IEntityType) ? default(InternalEntityEntry) : queryContext.StartTracking(
+                        entityType: entityType1, 
+                        entity: instance1, 
+                        snapshot: shadowSnapshot1);
+                    return instance1;
+                } : default(void);
+                return instance1;
+            };
+            return entity;
+        }, 
+        contextType: WebApplication2.MDbContext.AuthenticationDbContext, 
+        standAloneStateManager: False, 
+        detailedErrorsEnabled: False, 
+        threadSafetyChecksEnabled: True), 
+    cancellationToken: queryContext.CancellationToken)'
+2025-09-22 17:54:40.936 +05:30 [DBG] Creating DbConnection.
+2025-09-22 17:54:41.000 +05:30 [DBG] Created DbConnection. (60ms).
+2025-09-22 17:54:41.005 +05:30 [DBG] Opening connection to database 'MyCompanyAuthentication' on server '10.10.12.95'.
+2025-09-22 17:54:42.140 +05:30 [DBG] Opened connection to database 'MyCompanyAuthentication' on server '10.10.12.95'.
+2025-09-22 17:54:42.147 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-09-22 17:54:42.158 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (6ms).
+2025-09-22 17:54:42.171 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (24ms).
+2025-09-22 17:54:42.185 +05:30 [DBG] Executing DbCommand [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2025-09-22 17:54:42.366 +05:30 [INF] Executed DbCommand (178ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2025-09-22 17:54:42.435 +05:30 [DBG] Context 'AuthenticationDbContext' started tracking 'IdentityUser' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-09-22 17:54:42.515 +05:30 [DBG] Closing data reader to 'MyCompanyAuthentication' on server '10.10.12.95'.
+2025-09-22 17:54:42.542 +05:30 [DBG] A data reader for 'MyCompanyAuthentication' on server '10.10.12.95' is being disposed after spending 158ms reading results.
+2025-09-22 17:54:42.548 +05:30 [DBG] Closing connection to database 'MyCompanyAuthentication' on server '10.10.12.95'.
+2025-09-22 17:54:42.559 +05:30 [DBG] Closed connection to database 'MyCompanyAuthentication' on server '10.10.12.95' (11ms).
+2025-09-22 17:54:42.778 +05:30 [DBG] Compiling query expression: 
+'DbSet<IdentityUserRole<string>>()
+    .Join(
+        inner: DbSet<IdentityRole>(), 
+        outerKeySelector: userRole => userRole.RoleId, 
+        innerKeySelector: role => role.Id, 
+        resultSelector: (userRole, role) => new { 
+            userRole = userRole, 
+            role = role
+         })
+    .Where(<>h__TransparentIdentifier0 => <>h__TransparentIdentifier0.userRole.UserId.Equals(__userId_0))
+    .Select(<>h__TransparentIdentifier0 => <>h__TransparentIdentifier0.role.Name)'
+2025-09-22 17:54:42.850 +05:30 [DBG] Generated query execution expression: 
+'queryContext => SingleQueryingEnumerable.Create<string>(
+    relationalQueryContext: (RelationalQueryContext)queryContext, 
+    relationalCommandResolver: parameters => [LIFTABLE Constant: RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> 0
+        SELECT a0.Name
+        FROM AspNetUserRoles AS a
+        INNER JOIN AspNetRoles AS a0 ON a.RoleId == a0.Id
+        WHERE a.UserId == @__userId_0) | Resolver: c => new RelationalCommandCache(
+        c.Dependencies.MemoryCache, 
+        c.RelationalDependencies.QuerySqlGeneratorFactory, 
+        c.RelationalDependencies.RelationalParameterBasedSqlProcessorFactory, 
+        Projection Mapping:
+            EmptyProjectionMember -> 0
+        SELECT a0.Name
+        FROM AspNetUserRoles AS a
+        INNER JOIN AspNetRoles AS a0 ON a.RoleId == a0.Id
+        WHERE a.UserId == @__userId_0, 
+        False, 
+        new HashSet<string>(
+            new string[]{ }, 
+            StringComparer.Ordinal
+        )
+    )].GetRelationalCommandTemplate(parameters), 
+    readerColumns: null, 
+    shaper: (queryContext, dataReader, resultContext, resultCoordinator) => 
+    {
+        string value1;
+        value1 = dataReader.IsDBNull(0) ? default(string) : dataReader.GetString(0);
+        return value1;
+    }, 
+    contextType: WebApplication2.MDbContext.AuthenticationDbContext, 
+    standAloneStateManager: False, 
+    detailedErrorsEnabled: False, 
+    threadSafetyChecksEnabled: True)'
+2025-09-22 17:54:42.863 +05:30 [DBG] Opening connection to database 'MyCompanyAuthentication' on server '10.10.12.95'.
+2025-09-22 17:54:42.866 +05:30 [DBG] Opened connection to database 'MyCompanyAuthentication' on server '10.10.12.95'.
+2025-09-22 17:54:42.868 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-09-22 17:54:42.870 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (1ms).
+2025-09-22 17:54:42.874 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (6ms).
+2025-09-22 17:54:42.876 +05:30 [DBG] Executing DbCommand [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2025-09-22 17:54:42.884 +05:30 [INF] Executed DbCommand (8ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2025-09-22 17:54:42.891 +05:30 [DBG] Closing data reader to 'MyCompanyAuthentication' on server '10.10.12.95'.
+2025-09-22 17:54:42.892 +05:30 [DBG] A data reader for 'MyCompanyAuthentication' on server '10.10.12.95' is being disposed after spending 3ms reading results.
+2025-09-22 17:54:42.895 +05:30 [DBG] Closing connection to database 'MyCompanyAuthentication' on server '10.10.12.95'.
+2025-09-22 17:54:42.896 +05:30 [DBG] Closed connection to database 'MyCompanyAuthentication' on server '10.10.12.95' (1ms).
+2025-09-22 17:54:43.008 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-09-22 17:54:43.015 +05:30 [DBG] No information found on request to perform content negotiation.
+2025-09-22 17:54:43.017 +05:30 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-09-22 17:54:43.019 +05:30 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-09-22 17:54:43.024 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-09-22 17:54:43.028 +05:30 [INF] Executing OkObjectResult, writing value of type 'WebApplication2.DTO.LoginSuccessDto'.
+2025-09-22 17:54:43.042 +05:30 [INF] Executed action WebApplication2.Controllers.AuthController.Login (WebApplication2) in 5359.6712ms
+2025-09-22 17:54:43.045 +05:30 [INF] Executed endpoint 'WebApplication2.Controllers.AuthController.Login (WebApplication2)'
+2025-09-22 17:54:43.048 +05:30 [DBG] Connection id "0HNFPQBNNPBH6" completed keep alive response.
+2025-09-22 17:54:43.052 +05:30 [DBG] 'AuthenticationDbContext' disposed.
+2025-09-22 17:54:43.065 +05:30 [DBG] Disposing connection to database 'MyCompanyAuthentication' on server '10.10.12.95'.
+2025-09-22 17:54:43.069 +05:30 [DBG] Disposed connection to database '' on server '' (3ms).
+2025-09-22 17:54:43.076 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5041/api/Auth/login - 200 null application/json; charset=utf-8 6045.0455ms
+2025-09-22 17:55:24.285 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5041/api/employees?pageNumber=1&pageSize=100 - null null
+2025-09-22 17:55:24.295 +05:30 [DBG] 1 candidate(s) found for the request path '/api/employees'
+2025-09-22 17:55:24.298 +05:30 [DBG] Endpoint 'WebApplication2.Controllers.EmployeeController.GetAllEmloyees (WebApplication2)' with route pattern 'api/employees' is valid for the request path '/api/employees'
+2025-09-22 17:55:24.302 +05:30 [DBG] Request matched endpoint 'WebApplication2.Controllers.EmployeeController.GetAllEmloyees (WebApplication2)'
+2025-09-22 17:55:24.307 +05:30 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-09-22 17:55:24.416 +05:30 [DBG] Successfully validated the token.
+2025-09-22 17:55:24.423 +05:30 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2025-09-22 17:55:24.448 +05:30 [DBG] Authorization was successful.
+2025-09-22 17:55:24.452 +05:30 [INF] Executing endpoint 'WebApplication2.Controllers.EmployeeController.GetAllEmloyees (WebApplication2)'
+2025-09-22 17:55:24.469 +05:30 [INF] Route matched with {action = "GetAllEmloyees", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllEmloyees(System.String, System.String, System.String, Boolean, Int32, Int32) on controller WebApplication2.Controllers.EmployeeController (WebApplication2).
+2025-09-22 17:55:24.476 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-09-22 17:55:24.478 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-09-22 17:55:24.480 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)","WebApplication2.Filters.ActionFilters.MyActionFilter"]
+2025-09-22 17:55:24.484 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-09-22 17:55:24.489 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-09-22 17:55:24.492 +05:30 [DBG] Executing controller factory for controller WebApplication2.Controllers.EmployeeController (WebApplication2)
+2025-09-22 17:55:24.498 +05:30 [DBG] Executed controller factory for controller WebApplication2.Controllers.EmployeeController (WebApplication2)
+2025-09-22 17:55:24.509 +05:30 [DBG] Attempting to bind parameter 'filterOn' of type 'System.String' ...
+2025-09-22 17:55:24.513 +05:30 [DBG] Attempting to bind parameter 'filterOn' of type 'System.String' using the name '' in request data ...
+2025-09-22 17:55:24.516 +05:30 [DBG] Could not find a value in the request with name '' for binding parameter 'filterOn' of type 'System.String'.
+2025-09-22 17:55:24.519 +05:30 [DBG] Done attempting to bind parameter 'filterOn' of type 'System.String'.
+2025-09-22 17:55:24.523 +05:30 [DBG] Done attempting to bind parameter 'filterOn' of type 'System.String'.
+2025-09-22 17:55:24.525 +05:30 [DBG] Attempting to validate the bound parameter 'filterOn' of type 'System.String' ...
+2025-09-22 17:55:24.527 +05:30 [DBG] Done attempting to validate the bound parameter 'filterOn' of type 'System.String'.
+2025-09-22 17:55:24.529 +05:30 [DBG] Attempting to bind parameter 'filterBy' of type 'System.String' ...
+2025-09-22 17:55:24.532 +05:30 [DBG] Attempting to bind parameter 'filterBy' of type 'System.String' using the name '' in request data ...
+2025-09-22 17:55:24.535 +05:30 [DBG] Could not find a value in the request with name '' for binding parameter 'filterBy' of type 'System.String'.
+2025-09-22 17:55:24.540 +05:30 [DBG] Done attempting to bind parameter 'filterBy' of type 'System.String'.
+2025-09-22 17:55:24.542 +05:30 [DBG] Done attempting to bind parameter 'filterBy' of type 'System.String'.
+2025-09-22 17:55:24.544 +05:30 [DBG] Attempting to validate the bound parameter 'filterBy' of type 'System.String' ...
+2025-09-22 17:55:24.546 +05:30 [DBG] Done attempting to validate the bound parameter 'filterBy' of type 'System.String'.
+2025-09-22 17:55:24.547 +05:30 [DBG] Attempting to bind parameter 'sortBy' of type 'System.String' ...
+2025-09-22 17:55:24.550 +05:30 [DBG] Attempting to bind parameter 'sortBy' of type 'System.String' using the name '' in request data ...
+2025-09-22 17:55:24.553 +05:30 [DBG] Could not find a value in the request with name '' for binding parameter 'sortBy' of type 'System.String'.
+2025-09-22 17:55:24.558 +05:30 [DBG] Done attempting to bind parameter 'sortBy' of type 'System.String'.
+2025-09-22 17:55:24.560 +05:30 [DBG] Done attempting to bind parameter 'sortBy' of type 'System.String'.
+2025-09-22 17:55:24.561 +05:30 [DBG] Attempting to validate the bound parameter 'sortBy' of type 'System.String' ...
+2025-09-22 17:55:24.564 +05:30 [DBG] Done attempting to validate the bound parameter 'sortBy' of type 'System.String'.
+2025-09-22 17:55:24.566 +05:30 [DBG] Attempting to bind parameter 'isAscending' of type 'System.Boolean' ...
+2025-09-22 17:55:24.568 +05:30 [DBG] Attempting to bind parameter 'isAscending' of type 'System.Boolean' using the name '' in request data ...
+2025-09-22 17:55:24.573 +05:30 [DBG] Could not find a value in the request with name '' for binding parameter 'isAscending' of type 'System.Boolean'.
+2025-09-22 17:55:24.576 +05:30 [DBG] Done attempting to bind parameter 'isAscending' of type 'System.Boolean'.
+2025-09-22 17:55:24.577 +05:30 [DBG] Done attempting to bind parameter 'isAscending' of type 'System.Boolean'.
+2025-09-22 17:55:24.580 +05:30 [DBG] Attempting to validate the bound parameter 'isAscending' of type 'System.Boolean' ...
+2025-09-22 17:55:24.583 +05:30 [DBG] Done attempting to validate the bound parameter 'isAscending' of type 'System.Boolean'.
+2025-09-22 17:55:24.584 +05:30 [DBG] Attempting to bind parameter 'pageNumber' of type 'System.Int32' ...
+2025-09-22 17:55:24.589 +05:30 [DBG] Attempting to bind parameter 'pageNumber' of type 'System.Int32' using the name 'pageNumber' in request data ...
+2025-09-22 17:55:24.592 +05:30 [DBG] Done attempting to bind parameter 'pageNumber' of type 'System.Int32'.
+2025-09-22 17:55:24.594 +05:30 [DBG] Done attempting to bind parameter 'pageNumber' of type 'System.Int32'.
+2025-09-22 17:55:24.597 +05:30 [DBG] Attempting to validate the bound parameter 'pageNumber' of type 'System.Int32' ...
+2025-09-22 17:55:24.599 +05:30 [DBG] Done attempting to validate the bound parameter 'pageNumber' of type 'System.Int32'.
+2025-09-22 17:55:24.601 +05:30 [DBG] Attempting to bind parameter 'pageSize' of type 'System.Int32' ...
+2025-09-22 17:55:24.603 +05:30 [DBG] Attempting to bind parameter 'pageSize' of type 'System.Int32' using the name 'pageSize' in request data ...
+2025-09-22 17:55:24.608 +05:30 [DBG] Done attempting to bind parameter 'pageSize' of type 'System.Int32'.
+2025-09-22 17:55:24.611 +05:30 [DBG] Done attempting to bind parameter 'pageSize' of type 'System.Int32'.
+2025-09-22 17:55:24.613 +05:30 [DBG] Attempting to validate the bound parameter 'pageSize' of type 'System.Int32' ...
+2025-09-22 17:55:24.615 +05:30 [DBG] Done attempting to validate the bound parameter 'pageSize' of type 'System.Int32'.
+2025-09-22 17:55:24.623 +05:30 [INF] Fetching employees with FilterOn=null, FilterBy=null, SortBy=null, IsAscending=false, PageNumber=1, PageSize=100
+2025-09-22 17:55:24.900 +05:30 [DBG] The index {'EmployeesId'} was not created on entity type 'EmployeeProject (Dictionary<string, object>)' as the properties are already covered by the index {'EmployeesId', 'ProjectsProjectId'}.
+2025-09-22 17:55:24.999 +05:30 [DBG] Entity Framework Core 9.0.8 initialized 'MyDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:9.0.8' with options: EngineType=SqlServer 
+2025-09-22 17:55:25.013 +05:30 [DBG] Compiling query expression: 
+'DbSet<Employee>()
+    .Include("Department")
+    .Include("Projects")
+    .Skip(__p_0)
+    .Take(__p_1)'
+2025-09-22 17:55:25.045 +05:30 [DBG] Including navigation: 'Employee.Department'.
+2025-09-22 17:55:25.051 +05:30 [DBG] Including navigation: 'Employee.Projects'.
+2025-09-22 17:55:25.068 +05:30 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-09-22 17:55:25.072 +05:30 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-09-22 17:55:25.278 +05:30 [DBG] Generated query execution expression: 
+'queryContext => SingleQueryingEnumerable.Create<Employee>(
+    relationalQueryContext: (RelationalQueryContext)queryContext, 
+    relationalCommandResolver: parameters => [LIFTABLE Constant: RelationalCommandCache.QueryExpression(
+        Client Projections:
+            0 -> Dictionary<IProperty, int> { [Property: Employee.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Employee.DepartmentId (int) Required FK Index, 1], [Property: Employee.Name (string) Required, 2], [Property: Employee.Salary (int) Required, 3] }
+            1 -> Dictionary<IProperty, int> { [Property: Department.DepartmentId (int) Required PK AfterSave:Throw, 4], [Property: Department.Name (string) Required, 5] }
+            2 -> 0
+            3 -> 4
+            4 -> Dictionary<IProperty, int> { [Property: EmployeeProject (Dictionary<string, object>).EmployeesId (no field, int) Indexer Required PK FK AfterSave:Throw, 6], [Property: EmployeeProject (Dictionary<string, object>).ProjectsProjectId (no field, int) Indexer Required PK FK Index AfterSave:Throw, 7] }
+            5 -> Dictionary<IProperty, int> { [Property: Project.ProjectId (int) Required PK AfterSave:Throw, 8], [Property: Project.ProjectName (string) Required, 9] }
+            6 -> 6
+            7 -> 7
+            8 -> 8
+        SELECT e0.Id, e0.DepartmentId, e0.Name, e0.Salary, d.DepartmentId, d.Name, s.EmployeesId, s.ProjectsProjectId, s.ProjectId, s.ProjectName
+        FROM 
+        (
+            SELECT e.Id, e.DepartmentId, e.Name, e.Salary
+            FROM Employees AS e
+            OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+        ) AS e0
+        INNER JOIN Departments AS d ON e0.DepartmentId == d.DepartmentId
+        LEFT JOIN 
+        (
+            SELECT e1.EmployeesId, e1.ProjectsProjectId, p.ProjectId, p.ProjectName
+            FROM EmployeeProject AS e1
+            INNER JOIN Projects AS p ON e1.ProjectsProjectId == p.ProjectId
+        ) AS s ON e0.Id == s.EmployeesId
+        ORDER BY e0.Id ASC, d.DepartmentId ASC, s.EmployeesId ASC, s.ProjectsProjectId ASC) | Resolver: c => new RelationalCommandCache(
+        c.Dependencies.MemoryCache, 
+        c.RelationalDependencies.QuerySqlGeneratorFactory, 
+        c.RelationalDependencies.RelationalParameterBasedSqlProcessorFactory, 
+        Client Projections:
+            0 -> Dictionary<IProperty, int> { [Property: Employee.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Employee.DepartmentId (int) Required FK Index, 1], [Property: Employee.Name (string) Required, 2], [Property: Employee.Salary (int) Required, 3] }
+            1 -> Dictionary<IProperty, int> { [Property: Department.DepartmentId (int) Required PK AfterSave:Throw, 4], [Property: Department.Name (string) Required, 5] }
+            2 -> 0
+            3 -> 4
+            4 -> Dictionary<IProperty, int> { [Property: EmployeeProject (Dictionary<string, object>).EmployeesId (no field, int) Indexer Required PK FK AfterSave:Throw, 6], [Property: EmployeeProject (Dictionary<string, object>).ProjectsProjectId (no field, int) Indexer Required PK FK Index AfterSave:Throw, 7] }
+            5 -> Dictionary<IProperty, int> { [Property: Project.ProjectId (int) Required PK AfterSave:Throw, 8], [Property: Project.ProjectName (string) Required, 9] }
+            6 -> 6
+            7 -> 7
+            8 -> 8
+        SELECT e0.Id, e0.DepartmentId, e0.Name, e0.Salary, d.DepartmentId, d.Name, s.EmployeesId, s.ProjectsProjectId, s.ProjectId, s.ProjectName
+        FROM 
+        (
+            SELECT e.Id, e.DepartmentId, e.Name, e.Salary
+            FROM Employees AS e
+            OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+        ) AS e0
+        INNER JOIN Departments AS d ON e0.DepartmentId == d.DepartmentId
+        LEFT JOIN 
+        (
+            SELECT e1.EmployeesId, e1.ProjectsProjectId, p.ProjectId, p.ProjectName
+            FROM EmployeeProject AS e1
+            INNER JOIN Projects AS p ON e1.ProjectsProjectId == p.ProjectId
+        ) AS s ON e0.Id == s.EmployeesId
+        ORDER BY e0.Id ASC, d.DepartmentId ASC, s.EmployeesId ASC, s.ProjectsProjectId ASC, 
+        False, 
+        new HashSet<string>(
+            new string[]{ }, 
+            StringComparer.Ordinal
+        )
+    )].GetRelationalCommandTemplate(parameters), 
+    readerColumns: null, 
+    shaper: (queryContext, dataReader, resultContext, resultCoordinator) => 
+    {
+        resultContext.Values == null ? 
+        {
+            Employee entity;
+            Department entity;
+            entity = 
+            {
+                MaterializationContext materializationContext1;
+                IEntityType entityType1;
+                Employee instance1;
+                InternalEntityEntry entry1;
+                bool hasNullKey1;
+                materializationContext1 = new MaterializationContext(
+                    [LIFTABLE Constant: ValueBuffer | Resolver: _ => (object)ValueBuffer.Empty], 
+                    queryContext.Context
+                );
+                instance1 = default(Employee);
+                entry1 = queryContext.TryGetEntry(
+                    key: [LIFTABLE Constant: Key: Employee.Id PK | Resolver: c => c.Dependencies.Model.FindEntityType("WebApplication2.Models.Employee").FindPrimaryKey()], 
+                    keyValues: new object[]{ (object)dataReader.GetInt32(0) }, 
+                    throwOnNullKey: True, 
+                    hasNullKey: hasNullKey1);
+                !(hasNullKey1) ? entry1 != default(InternalEntityEntry) ? 
+                {
+                    entityType1 = entry1.EntityType;
+                    return instance1 = (Employee)entry1.Entity;
+                } : 
+                {
+                    ISnapshot shadowSnapshot1;
+                    shadowSnapshot1 = [LIFTABLE Constant: Snapshot | Resolver: _ => Snapshot.Empty];
+                    entityType1 = [LIFTABLE Constant: EntityType: Employee | Resolver: namelessParameter{0} => namelessParameter{0}.Dependencies.Model.FindEntityType("WebApplication2.Models.Employee")];
+                    instance1 = switch (entityType1)
+                    {
+                        case [LIFTABLE Constant: EntityType: Employee | Resolver: namelessParameter{1} => namelessParameter{1}.Dependencies.Model.FindEntityType("WebApplication2.Models.Employee")]: 
+                            {
+                                return 
+                                {
+                                    Employee instance;
+                                    instance = new Employee();
+                                    instance.<Id>k__BackingField = dataReader.GetInt32(0);
+                                    instance.<DepartmentId>k__BackingField = dataReader.GetInt32(1);
+                                    instance.<Name>k__BackingField = dataReader.GetString(2);
+                                    instance.<Salary>k__BackingField = dataReader.GetInt32(3);
+                                    (instance is IInjectableService) ? ((IInjectableService)instance).Injected(
+                                        context: materializationContext1.Context, 
+                                        entity: instance, 
+                                        queryTrackingBehavior: TrackAll, 
+                                        structuralType: [LIFTABLE Constant: EntityType: Employee | Resolver: namelessParameter{2} => namelessParameter{2}.Dependencies.Model.FindEntityType("WebApplication2.Models.Employee")]) : default(void);
+                                    return instance;
+                                }}
+                        default: 
+                            default(Employee)
+                    }
+                    ;
+                    entry1 = entityType1 == default(IEntityType) ? default(InternalEntityEntry) : queryContext.StartTracking(
+                        entityType: entityType1, 
+                        entity: instance1, 
+                        snapshot: shadowSnapshot1);
+                    return instance1;
+                } : default(void);
+                return instance1;
+            };
+            entity = 
+            {
+                MaterializationContext materializationContext2;
+                IEntityType entityType2;
+                Department instance2;
+                InternalEntityEntry entry2;
+                bool hasNullKey2;
+                materializationContext2 = new MaterializationContext(
+                    [LIFTABLE Constant: ValueBuffer | Resolver: _ => (object)ValueBuffer.Empty], 
+                    queryContext.Context
+                );
+                instance2 = default(Department);
+                entry2 = queryContext.TryGetEntry(
+                    key: [LIFTABLE Constant: Key: Department.DepartmentId PK | Resolver: c => c.Dependencies.Model.FindEntityType("WebApplication2.Models.Department").FindPrimaryKey()], 
+                    keyValues: new object[]{ (object)dataReader.GetInt32(4) }, 
+                    throwOnNullKey: True, 
+                    hasNullKey: hasNullKey2);
+                !(hasNullKey2) ? entry2 != default(InternalEntityEntry) ? 
+                {
+                    entityType2 = entry2.EntityType;
+                    return instance2 = (Department)entry2.Entity;
+                } : 
+                {
+                    ISnapshot shadowSnapshot2;
+                    shadowSnapshot2 = [LIFTABLE Constant: Snapshot | Resolver: _ => Snapshot.Empty];
+                    entityType2 = [LIFTABLE Constant: EntityType: Department | Resolver: namelessParameter{3} => namelessParameter{3}.Dependencies.Model.FindEntityType("WebApplication2.Models.Department")];
+                    instance2 = switch (entityType2)
+                    {
+                        case [LIFTABLE Constant: EntityType: Department | Resolver: namelessParameter{4} => namelessParameter{4}.Dependencies.Model.FindEntityType("WebApplication2.Models.Department")]: 
+                            {
+                                return 
+                                {
+                                    Department instance;
+                                    instance = new Department();
+                                    instance.<DepartmentId>k__BackingField = dataReader.GetInt32(4);
+                                    instance.<Name>k__BackingField = dataReader.GetString(5);
+                                    (instance is IInjectableService) ? ((IInjectableService)instance).Injected(
+                                        context: materializationContext2.Context, 
+                                        entity: instance, 
+                                        queryTrackingBehavior: TrackAll, 
+                                        structuralType: [LIFTABLE Constant: EntityType: Department | Resolver: namelessParameter{5} => namelessParameter{5}.Dependencies.Model.FindEntityType("WebApplication2.Models.Department")]) : default(void);
+                                    return instance;
+                                }}
+                        default: 
+                            default(Department)
+                    }
+                    ;
+                    entry2 = entityType2 == default(IEntityType) ? default(InternalEntityEntry) : queryContext.StartTracking(
+                        entityType: entityType2, 
+                        entity: instance2, 
+                        snapshot: shadowSnapshot2);
+                    return instance2;
+                } : default(void);
+                return instance2;
+            };
+            resultContext.Values = new object[]
+            { 
+                entity, 
+                entity 
+            };
+            ShaperProcessingExpressionVisitor.IncludeReference<Employee, Employee, Department>(
+                queryContext: queryContext, 
+                entity: (Employee)(resultContext.Values[0]), 
+                relatedEntity: (Department)(resultContext.Values[1]), 
+                navigation: [LIFTABLE Constant: Navigation: Employee.Department (Department) ToPrincipal Department Inverse: Employees | Resolver: namelessParameter{6} => namelessParameter{6}.Dependencies.Model.FindEntityType("WebApplication2.Models.Employee").FindNavigation("Department")], 
+                inverseNavigation: [LIFTABLE Constant: Navigation: Department.Employees (ICollection<Employee>) Collection ToDependent Employee Inverse: Department | Resolver: namelessParameter{7} => namelessParameter{7}.Dependencies.Model.FindEntityType("WebApplication2.Models.Department").FindNavigation("Employees")], 
+                fixup: (namelessParameter{8}, namelessParameter{9}) => 
+                {
+                    namelessParameter{8}.<Department>k__BackingField = namelessParameter{9};
+                    return [LIFTABLE Constant: ClrICollectionAccessor<Department, ICollection<Employee>, Employee> | Resolver: namelessParameter{10} => namelessParameter{10}.Dependencies.Model.FindEntityType("WebApplication2.Models.Department").FindNavigation("Employees").GetCollectionAccessor()].Add(
+                        entity: namelessParameter{9}, 
+                        value: namelessParameter{8}, 
+                        forMaterialization: True);
+                }, 
+                trackingQuery: True);
+            ShaperProcessingExpressionVisitor.InitializeIncludeCollection<Employee, Employee>(
+                collectionId: 0, 
+                queryContext: queryContext, 
+                dbDataReader: dataReader, 
+                resultCoordinator: resultCoordinator, 
+                entity: (Employee)(resultContext.Values[0]), 
+                parentIdentifier: [LIFTABLE Constant: Func<QueryContext, DbDataReader, object[]> | Resolver: _ => (queryContext, dataReader) => new object[]
+                { 
+                    (object)(int?)dataReader.GetInt32(0), 
+                    (object)(int?)dataReader.GetInt32(4) 
+                }], 
+                outerIdentifier: [LIFTABLE Constant: Func<QueryContext, DbDataReader, object[]> | Resolver: _ => (queryContext, dataReader) => new object[]
+                { 
+                    (object)(int?)dataReader.GetInt32(0), 
+                    (object)(int?)dataReader.GetInt32(4) 
+                }], 
+                navigation: [LIFTABLE Constant: SkipNavigation: Employee.Projects (List<Project>) CollectionProject Inverse: Employees | Resolver: namelessParameter{11} => namelessParameter{11}.Dependencies.Model.FindEntityType("WebApplication2.Models.Employee").FindSkipNavigation("Projects")], 
+                clrCollectionAccessor: [LIFTABLE Constant: ClrICollectionAccessor<Employee, List<Project>, Project> | Resolver: namelessParameter{12} => namelessParameter{12}.Dependencies.Model.FindEntityType("WebApplication2.Models.Employee").FindSkipNavigation("Projects").GetCollectionAccessor()], 
+                trackingQuery: True, 
+                setLoaded: True);
+        } : default(void);
+        ShaperProcessingExpressionVisitor.PopulateIncludeCollection<Employee, Project>(
+            collectionId: 0, 
+            queryContext: queryContext, 
+            dbDataReader: dataReader, 
+            resultCoordinator: resultCoordinator, 
+            parentIdentifier: [LIFTABLE Constant: Func<QueryContext, DbDataReader, object[]> | Resolver: _ => (queryContext, dataReader) => new object[]
+            { 
+                (object)(int?)dataReader.GetInt32(0), 
+                (object)(int?)dataReader.GetInt32(4) 
+            }], 
+            outerIdentifier: [LIFTABLE Constant: Func<QueryContext, DbDataReader, object[]> | Resolver: _ => (queryContext, dataReader) => new object[]
+            { 
+                (object)(int?)dataReader.GetInt32(0), 
+                (object)(int?)dataReader.GetInt32(4) 
+            }], 
+            selfIdentifier: [LIFTABLE Constant: Func<QueryContext, DbDataReader, object[]> | Resolver: _ => (queryContext, dataReader) => new object[]
+            { 
+                (object)dataReader.IsDBNull(6) ? default(int?) : (int?)dataReader.GetInt32(6), 
+                (object)dataReader.IsDBNull(7) ? default(int?) : (int?)dataReader.GetInt32(7), 
+                (object)dataReader.IsDBNull(8) ? default(int?) : (int?)dataReader.GetInt32(8) 
+            }], 
+            parentIdentifierValueComparers: [LIFTABLE Constant: Func<object, object, bool>[] { Func<object, object, bool>, Func<object, object, bool> } | Resolver: _ => new Func<object, object, bool>[]
+            { 
+                (left, right) => left == null ? right == null : right != null && (int)left == (int)right, 
+                (left, right) => left == null ? right == null : right != null && (int)left == (int)right 
+            }], 
+            outerIdentifierValueComparers: [LIFTABLE Constant: Func<object, object, bool>[] { Func<object, object, bool>, Func<object, object, bool> } | Resolver: _ => new Func<object, object, bool>[]
+            { 
+                (left, right) => left == null ? right == null : right != null && (int)left == (int)right, 
+                (left, right) => left == null ? right == null : right != null && (int)left == (int)right 
+            }], 
+            selfIdentifierValueComparers: [LIFTABLE Constant: Func<object, object, bool>[] { Func<object, object, bool>, Func<object, object, bool>, Func<object, object, bool> } | Resolver: _ => new Func<object, object, bool>[]
+            { 
+                (left, right) => left == null ? right == null : right != null && (int)left == (int)right, 
+                (left, right) => left == null ? right == null : right != null && (int)left == (int)right, 
+                (left, right) => left == null ? right == null : right != null && (int)left == (int)right 
+            }], 
+            innerShaper: (queryContext, dataReader, resultContext, resultCoordinator) => 
+            {
+                Dictionary<string, object> entity;
+                Project entity;
+                entity = 
+                {
+                    MaterializationContext materializationContext3;
+                    IEntityType entityType3;
+                    Dictionary<string, object> instance3;
+                    InternalEntityEntry entry3;
+                    bool hasNullKey3;
+                    materializationContext3 = new MaterializationContext(
+                        [LIFTABLE Constant: ValueBuffer | Resolver: _ => (object)ValueBuffer.Empty], 
+                        queryContext.Context
+                    );
+                    instance3 = default(Dictionary<string, object>);
+                    entry3 = queryContext.TryGetEntry(
+                        key: [LIFTABLE Constant: Key: EmployeeProject (Dictionary<string, object>).EmployeesId, EmployeeProject (Dictionary<string, object>).ProjectsProjectId PK | Resolver: c => c.Dependencies.Model.FindEntityType("EmployeeProject").FindPrimaryKey()], 
+                        keyValues: new object[]
+                        { 
+                            dataReader.IsDBNull(6) ? default(object) : (object)dataReader.GetInt32(6), 
+                            dataReader.IsDBNull(7) ? default(object) : (object)dataReader.GetInt32(7) 
+                        }, 
+                        throwOnNullKey: False, 
+                        hasNullKey: hasNullKey3);
+                    !(hasNullKey3) ? entry3 != default(InternalEntityEntry) ? 
+                    {
+                        entityType3 = entry3.EntityType;
+                        return instance3 = (Dictionary<string, object>)entry3.Entity;
+                    } : 
+                    {
+                        ISnapshot shadowSnapshot3;
+                        shadowSnapshot3 = [LIFTABLE Constant: Snapshot | Resolver: _ => Snapshot.Empty];
+                        entityType3 = [LIFTABLE Constant: EntityType: EmployeeProject (Dictionary<string, object>) CLR Type: Dictionary<string, object> | Resolver: namelessParameter{13} => namelessParameter{13}.Dependencies.Model.FindEntityType("EmployeeProject")];
+                        instance3 = switch (entityType3)
+                        {
+                            case [LIFTABLE Constant: EntityType: EmployeeProject (Dictionary<string, object>) CLR Type: Dictionary<string, object> | Resolver: namelessParameter{14} => namelessParameter{14}.Dependencies.Model.FindEntityType("EmployeeProject")]: 
+                                {
+                                    return 
+                                    {
+                                        Dictionary<string, object> instance;
+                                        instance = new Dictionary<string, object>();
+                                        instance["EmployeesId"] = dataReader.IsDBNull(6) ? default(object) : (object)dataReader.GetInt32(6);
+                                        instance["ProjectsProjectId"] = dataReader.IsDBNull(7) ? default(object) : (object)dataReader.GetInt32(7);
+                                        (instance is IInjectableService) ? ((IInjectableService)instance).Injected(
+                                            context: materializationContext3.Context, 
+                                            entity: instance, 
+                                            queryTrackingBehavior: TrackAll, 
+                                            structuralType: [LIFTABLE Constant: EntityType: EmployeeProject (Dictionary<string, object>) CLR Type: Dictionary<string, object> | Resolver: namelessParameter{15} => namelessParameter{15}.Dependencies.Model.FindEntityType("EmployeeProject")]) : default(void);
+                                        return instance;
+                                    }}
+                            default: 
+                                default(Dictionary<string, object>)
+                        }
+                        ;
+                        entry3 = entityType3 == default(IEntityType) ? default(InternalEntityEntry) : queryContext.StartTracking(
+                            entityType: entityType3, 
+                            entity: instance3, 
+                            snapshot: shadowSnapshot3);
+                        return instance3;
+                    } : default(void);
+                    return instance3;
+                };
+                entity = 
+                {
+                    MaterializationContext materializationContext4;
+                    IEntityType entityType4;
+                    Project instance4;
+                    InternalEntityEntry entry4;
+                    bool hasNullKey4;
+                    materializationContext4 = new MaterializationContext(
+                        [LIFTABLE Constant: ValueBuffer | Resolver: _ => (object)ValueBuffer.Empty], 
+                        queryContext.Context
+                    );
+                    instance4 = default(Project);
+                    entry4 = queryContext.TryGetEntry(
+                        key: [LIFTABLE Constant: Key: Project.ProjectId PK | Resolver: c => c.Dependencies.Model.FindEntityType("WebApplication2.Models.Project").FindPrimaryKey()], 
+                        keyValues: new object[]{ dataReader.IsDBNull(8) ? default(object) : (object)dataReader.GetInt32(8) }, 
+                        throwOnNullKey: False, 
+                        hasNullKey: hasNullKey4);
+                    !(hasNullKey4) ? entry4 != default(InternalEntityEntry) ? 
+                    {
+                        entityType4 = entry4.EntityType;
+                        return instance4 = (Project)entry4.Entity;
+                    } : 
+                    {
+                        ISnapshot shadowSnapshot4;
+                        shadowSnapshot4 = [LIFTABLE Constant: Snapshot | Resolver: _ => Snapshot.Empty];
+                        entityType4 = [LIFTABLE Constant: EntityType: Project | Resolver: namelessParameter{16} => namelessParameter{16}.Dependencies.Model.FindEntityType("WebApplication2.Models.Project")];
+                        instance4 = switch (entityType4)
+                        {
+                            case [LIFTABLE Constant: EntityType: Project | Resolver: namelessParameter{17} => namelessParameter{17}.Dependencies.Model.FindEntityType("WebApplication2.Models.Project")]: 
+                                {
+                                    return 
+                                    {
+                                        Project instance;
+                                        instance = new Project();
+                                        instance.<ProjectId>k__BackingField = dataReader.IsDBNull(8) ? default(int) : dataReader.GetInt32(8);
+                                        instance.<ProjectName>k__BackingField = dataReader.IsDBNull(9) ? default(string) : dataReader.GetString(9);
+                                        (instance is IInjectableService) ? ((IInjectableService)instance).Injected(
+                                            context: materializationContext4.Context, 
+                                            entity: instance, 
+                                            queryTrackingBehavior: TrackAll, 
+                                            structuralType: [LIFTABLE Constant: EntityType: Project | Resolver: namelessParameter{18} => namelessParameter{18}.Dependencies.Model.FindEntityType("WebApplication2.Models.Project")]) : default(void);
+                                        return instance;
+                                    }}
+                            default: 
+                                default(Project)
+                        }
+                        ;
+                        entry4 = entityType4 == default(IEntityType) ? default(InternalEntityEntry) : queryContext.StartTracking(
+                            entityType: entityType4, 
+                            entity: instance4, 
+                            snapshot: shadowSnapshot4);
+                        return instance4;
+                    } : default(void);
+                    return instance4;
+                };
+                return NavigationExpandingExpressionVisitor.FetchJoinEntity<Dictionary<string, object>, Project>(
+                    joinEntity: entity, 
+                    targetEntity: entity);
+            }, 
+            inverseNavigation: [LIFTABLE Constant: SkipNavigation: Project.Employees (List<Employee>) CollectionEmployee Inverse: Projects | Resolver: namelessParameter{19} => namelessParameter{19}.Dependencies.Model.FindEntityType("WebApplication2.Models.Project").FindSkipNavigation("Employees")], 
+            fixup: (namelessParameter{20}, namelessParameter{21}) => 
+            {
+                [LIFTABLE Constant: ClrICollectionAccessor<Employee, List<Project>, Project> | Resolver: namelessParameter{22} => namelessParameter{22}.Dependencies.Model.FindEntityType("WebApplication2.Models.Employee").FindSkipNavigation("Projects").GetCollectionAccessor()].Add(
+                    entity: namelessParameter{20}, 
+                    value: namelessParameter{21}, 
+                    forMaterialization: True);
+                return [LIFTABLE Constant: ClrICollectionAccessor<Project, List<Employee>, Employee> | Resolver: namelessParameter{23} => namelessParameter{23}.Dependencies.Model.FindEntityType("WebApplication2.Models.Project").FindSkipNavigation("Employees").GetCollectionAccessor()].Add(
+                    entity: namelessParameter{21}, 
+                    value: namelessParameter{20}, 
+                    forMaterialization: True);
+            }, 
+            trackingQuery: True);
+        return IsTrue(resultCoordinator.ResultReady)
+         ? (Employee)(resultContext.Values[0]) : default(Employee);
+    }, 
+    contextType: WebApplication2.MDbContext.MyDbContext, 
+    standAloneStateManager: False, 
+    detailedErrorsEnabled: False, 
+    threadSafetyChecksEnabled: True)'
+2025-09-22 17:55:25.382 +05:30 [DBG] Creating DbConnection.
+2025-09-22 17:55:25.383 +05:30 [DBG] Created DbConnection. (1ms).
+2025-09-22 17:55:25.385 +05:30 [DBG] Opening connection to database 'MyCompany' on server '10.10.12.95'.
+2025-09-22 17:55:25.428 +05:30 [DBG] Opened connection to database 'MyCompany' on server '10.10.12.95'.
+2025-09-22 17:55:25.431 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-09-22 17:55:25.432 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (1ms).
+2025-09-22 17:55:25.434 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (3ms).
+2025-09-22 17:55:25.439 +05:30 [DBG] Executing DbCommand [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [e0].[Id], [e0].[DepartmentId], [e0].[Name], [e0].[Salary], [d].[DepartmentId], [d].[Name], [s].[EmployeesId], [s].[ProjectsProjectId], [s].[ProjectId], [s].[ProjectName]
+FROM (
+    SELECT [e].[Id], [e].[DepartmentId], [e].[Name], [e].[Salary]
+    FROM [Employees] AS [e]
+    ORDER BY (SELECT 1)
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [e0]
+INNER JOIN [Departments] AS [d] ON [e0].[DepartmentId] = [d].[DepartmentId]
+LEFT JOIN (
+    SELECT [e1].[EmployeesId], [e1].[ProjectsProjectId], [p].[ProjectId], [p].[ProjectName]
+    FROM [EmployeeProject] AS [e1]
+    INNER JOIN [Projects] AS [p] ON [e1].[ProjectsProjectId] = [p].[ProjectId]
+) AS [s] ON [e0].[Id] = [s].[EmployeesId]
+ORDER BY [e0].[Id], [d].[DepartmentId], [s].[EmployeesId], [s].[ProjectsProjectId]
+2025-09-22 17:55:25.458 +05:30 [INF] Executed DbCommand (21ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [e0].[Id], [e0].[DepartmentId], [e0].[Name], [e0].[Salary], [d].[DepartmentId], [d].[Name], [s].[EmployeesId], [s].[ProjectsProjectId], [s].[ProjectId], [s].[ProjectName]
+FROM (
+    SELECT [e].[Id], [e].[DepartmentId], [e].[Name], [e].[Salary]
+    FROM [Employees] AS [e]
+    ORDER BY (SELECT 1)
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [e0]
+INNER JOIN [Departments] AS [d] ON [e0].[DepartmentId] = [d].[DepartmentId]
+LEFT JOIN (
+    SELECT [e1].[EmployeesId], [e1].[ProjectsProjectId], [p].[ProjectId], [p].[ProjectName]
+    FROM [EmployeeProject] AS [e1]
+    INNER JOIN [Projects] AS [p] ON [e1].[ProjectsProjectId] = [p].[ProjectId]
+) AS [s] ON [e0].[Id] = [s].[EmployeesId]
+ORDER BY [e0].[Id], [d].[DepartmentId], [s].[EmployeesId], [s].[ProjectsProjectId]
+2025-09-22 17:55:25.489 +05:30 [DBG] Context 'MyDbContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-09-22 17:55:25.551 +05:30 [DBG] The navigation 'Employee.Department' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-09-22 17:55:25.565 +05:30 [DBG] Context 'MyDbContext' started tracking 'Department' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-09-22 17:55:25.599 +05:30 [DBG] Context 'MyDbContext' started tracking 'EmployeeProject' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-09-22 17:55:25.615 +05:30 [DBG] Context 'MyDbContext' started tracking 'Project' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-09-22 17:55:25.627 +05:30 [DBG] Context 'MyDbContext' started tracking 'EmployeeProject' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-09-22 17:55:25.629 +05:30 [DBG] Context 'MyDbContext' started tracking 'Project' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-09-22 17:55:25.632 +05:30 [DBG] Context 'MyDbContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-09-22 17:55:25.635 +05:30 [DBG] The navigation 'Employee.Department' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-09-22 17:55:25.639 +05:30 [DBG] Context 'MyDbContext' started tracking 'Department' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-09-22 17:55:25.642 +05:30 [DBG] Context 'MyDbContext' started tracking 'EmployeeProject' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-09-22 17:55:25.644 +05:30 [DBG] Context 'MyDbContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-09-22 17:55:25.647 +05:30 [DBG] Context 'MyDbContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-09-22 17:55:25.650 +05:30 [DBG] Context 'MyDbContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-09-22 17:55:25.654 +05:30 [DBG] The navigation 'Employee.Department' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-09-22 17:55:25.657 +05:30 [DBG] Context 'MyDbContext' started tracking 'Department' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-09-22 17:55:25.659 +05:30 [DBG] Context 'MyDbContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-09-22 17:55:25.661 +05:30 [DBG] Context 'MyDbContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-09-22 17:55:25.664 +05:30 [DBG] The navigation 'Employee.Department' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-09-22 17:55:25.667 +05:30 [DBG] Context 'MyDbContext' started tracking 'Department' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-09-22 17:55:25.671 +05:30 [DBG] Context 'MyDbContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-09-22 17:55:25.674 +05:30 [DBG] Context 'MyDbContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-09-22 17:55:25.676 +05:30 [DBG] Context 'MyDbContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-09-22 17:55:25.679 +05:30 [DBG] Closing data reader to 'MyCompany' on server '10.10.12.95'.
+2025-09-22 17:55:25.681 +05:30 [DBG] A data reader for 'MyCompany' on server '10.10.12.95' is being disposed after spending 215ms reading results.
+2025-09-22 17:55:25.683 +05:30 [DBG] Closing connection to database 'MyCompany' on server '10.10.12.95'.
+2025-09-22 17:55:25.685 +05:30 [DBG] Closed connection to database 'MyCompany' on server '10.10.12.95' (1ms).
+2025-09-22 17:55:25.692 +05:30 [INF] Successfully retrieved 10 employees.
+2025-09-22 17:55:25.695 +05:30 [INF] Time for Filtered Employee completed in 1072.9 ms
+2025-09-22 17:55:25.702 +05:30 [INF] Action executed successfully with status code: 200
+2025-09-22 17:55:25.706 +05:30 [INF] Returned result type: List`1
+2025-09-22 17:55:25.707 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-09-22 17:55:25.714 +05:30 [DBG] No information found on request to perform content negotiation.
+2025-09-22 17:55:25.716 +05:30 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-09-22 17:55:25.723 +05:30 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-09-22 17:55:25.726 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-09-22 17:55:25.738 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebApplication2.DTO.EmployeeDTOForShowing, WebApplication2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-09-22 17:55:25.766 +05:30 [INF] Executed action WebApplication2.Controllers.EmployeeController.GetAllEmloyees (WebApplication2) in 1273.9349ms
+2025-09-22 17:55:25.768 +05:30 [INF] Executed endpoint 'WebApplication2.Controllers.EmployeeController.GetAllEmloyees (WebApplication2)'
+2025-09-22 17:55:25.773 +05:30 [DBG] Connection id "0HNFPQBNNPBH6" completed keep alive response.
+2025-09-22 17:55:25.775 +05:30 [DBG] 'MyDbContext' disposed.
+2025-09-22 17:55:25.777 +05:30 [DBG] Disposing connection to database 'MyCompany' on server '10.10.12.95'.
+2025-09-22 17:55:25.779 +05:30 [DBG] Disposed connection to database '' on server '' (2ms).
+2025-09-22 17:55:25.781 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5041/api/employees?pageNumber=1&pageSize=100 - 200 null application/json; charset=utf-8 1495.936ms
+2025-09-22 17:59:16.548 +05:30 [DBG] Connection id "0HNFPQBNNPBH5" received FIN.
+2025-09-22 17:59:16.562 +05:30 [DBG] Connection id "0HNFPQBNNPBH5" disconnecting.
+2025-09-22 17:59:16.566 +05:30 [DBG] Connection id "0HNFPQBNNPBH5" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-09-22 17:59:16.588 +05:30 [DBG] Connection id "0HNFPQBNNPBH5" stopped.
